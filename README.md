@@ -2,10 +2,12 @@
 1. Install [Modrinth](https://modrinth.com/app) launcher:
 2. Install the [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) modpack
 in Modrinth and launch Minecraft through it (Fabric v1.21.5)
-## Server Side Commands/Info
+## Server Commands/Info
 - EssentialCommands commands can be found [here](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 - Get Off My Lawn Recipes [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land), here is the first recipe:
   - ![image](https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588)
+- Hey That's Mine commands [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
+
 ## Client-side Only Mods
 You can install whichever client-side only mods you want to your 'Fabulously Optimized' instance, but here's a few suggestions:
 ### UI
