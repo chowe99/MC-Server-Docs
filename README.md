@@ -1,5 +1,5 @@
 # MC-Server-Setup
-1. Install [Modrinth](https://modrinth.com/app) launcher:
+1. Install [Modrinth](https://modrinth.com/app) launcher
 2. Install the [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) modpack
 in Modrinth and launch Minecraft through it (Fabric v1.21.5). Fabulously Optimized can 10x ur FPS, mine went from ~150 to sometimes 1300+ fps:
 ![image](https://github.com/user-attachments/assets/81eeada7-3107-443e-b296-6e36af6c2825)
