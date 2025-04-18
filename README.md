@@ -1,7 +1,7 @@
 # MC-Server-Setup
 1. Install [Modrinth](https://modrinth.com/app) launcher
-2. Install the [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) modpack
-in Modrinth and launch Minecraft through it (Fabric v1.21.5). Fabulously Optimized can 10x ur FPS, mine went from ~150 to sometimes 1300+ fps:
+2. The only current prerequisite to the server is Easy Magic which you can download [here](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric)
+3. (Optional but highly recommended) Install [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) in Modrinth and launch Minecraft through it (Fabric v1.21.5). Fabulously Optimized is a modpack whose name speaks for itself; it can 10x ur FPS, mine went from ~150 to sometimes 1300+ fps:
 ![image](https://github.com/user-attachments/assets/81eeada7-3107-443e-b296-6e36af6c2825)
 
 ## Server Commands/Info
@@ -58,7 +58,14 @@ Sometimes shaders can interact with the proximity voice mod and cause crashes, i
 - [Lithostitched](https://modrinth.com/mod/lithostitched) - Optimizes chunk loading.
 - [Mobstacker](https://modrinth.com/mod/mobstacker) - Stacks mobs together to reduce lag.
 - [Nether Portal Fix](https://modrinth.com/mod/netherportalfix) - Fixes issues with Nether portal linking.
+- [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
 - [Plasma Voice Groups](https://modrinth.com/plugin/pv-addon-groups) - Allows for the creation of voice chat groups.
 - [Spark](https://modrinth.com/mod/spark) - A performance profiling tool.
 - [SS Waystones](https://modrinth.com/mod/sswaystones) - Adds placeable waystones for fast travel.
 - [Towns and Towers](https://modrinth.com/mod/towns-and-towers) - Generates new and improved structures.
+- [Detect AFK](https://modrinth.com/datapack/detect-afk)
+- [AFK sleep](https://modrinth.com/datapack/afk-sleep)
+- [Forge conflict API Port](https://modrinth.com/mod/forge-config-api-port)
+- [Easy Magic](https://modrinth.com/mod/easy-magic)
+- [Puzzles Lib](https://modrinth.com/mod/puzzles-lib)
+- [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
