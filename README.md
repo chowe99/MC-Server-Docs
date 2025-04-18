@@ -1,7 +1,9 @@
 # MC-Server-Setup
 1. Install [Modrinth](https://modrinth.com/app) launcher:
 2. Install the [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) modpack
-in Modrinth and launch Minecraft through it (Fabric v1.21.5)
+in Modrinth and launch Minecraft through it (Fabric v1.21.5). Fabulously Optimized can 10x ur FPS, mine went from ~150 to sometimes 1300+ fps:
+![image](https://github.com/user-attachments/assets/81eeada7-3107-443e-b296-6e36af6c2825)
+
 ## Server Commands/Info
 - EssentialCommands commands can be found [here](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 - Get Off My Lawn Recipes [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land), here is the first recipe:
@@ -19,6 +21,11 @@ You can install whichever client-side only mods you want to your 'Fabulously Opt
 
 **Shaders:**
 - [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined)
+Sample images:
+![image](https://github.com/user-attachments/assets/def189a6-9266-443c-bbff-40cb64df262c)
+
+![image](https://github.com/user-attachments/assets/4c0afb55-40e1-4987-bc3c-048f948477f6)
+
 ## Client-Server
 Client-server mods need to be installed on the client and the server to function properly, however some mods like Plasmo aren't necessary to install on the client side and the server can still be accessed with a vanilla client.
 - [Plasmo Voice](https://modrinth.com/plugin/plasmo-voice?version=1.21.5&loader=fabric) - Adds proximity voice chat to the game.
