@@ -9,6 +9,7 @@
 - Get Off My Lawn Recipes [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land), here is the first recipe:
   - ![image](https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588)
 - Hey That's Mine commands [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
+- Inventory sorter has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting), but if you don't want it you can sort chests by double clicking empty tiles.
 
 ## Client-side Only Mods
 You can install whichever client-side only mods you want to your 'Fabulously Optimized' instance, but here's a few suggestions:
@@ -69,3 +70,6 @@ Sometimes shaders can interact with the proximity voice mod and cause crashes, i
 - [Easy Magic](https://modrinth.com/mod/easy-magic)
 - [Puzzles Lib](https://modrinth.com/mod/puzzles-lib)
 - [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
+- [Cloth Config API](https://modrinth.com/mod/cloth-config)
+- [Inventory Sorter](https://modrinth.com/mod/inventory-sorting)
+- [Clumps XP](https://modrinth.com/mod/clumps)
