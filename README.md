@@ -28,17 +28,13 @@ Sample images:
 ![image](https://github.com/user-attachments/assets/4c0afb55-40e1-4987-bc3c-048f948477f6)
 
 ## Client-Server
-Client-server mods need to be installed on the client and the server to function properly, however some mods like Plasmo aren't necessary to install on the client side and the server can still be accessed with a vanilla client.
-- [Plasmo Voice](https://modrinth.com/plugin/plasmo-voice?version=1.21.5&loader=fabric) - Adds proximity voice chat to the game.
-  - Press 'v' (default) to access Plasmo's settings, you may want to change your proximity distance along with your push-to-talk/voice settings:
-![image](https://github.com/user-attachments/assets/54d8b8cb-e8ee-4ea9-8d6c-0e880b2faf8f)
-  - Use [these](https://github.com/plasmoapp/pv-addon-groups?tab=readme-ov-file#commands) commands to create group voice chats which don't have proximity limits.
-  - See [Issues](https://github.com/chowe99/MC-Server-Setup/edit/main/README.md#server-side-modlist)
+Client-server mods need to be installed on the client and the server to function properly, however some mods like `Simple Voice Chat` aren't necessary to install on the client side and the server can still be accessed with a vanilla client.
+- [Simle Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game. If you cannot download it with the modrinth client then you have to manually download it to `C:\Users\User\AppData\Roaming\ModrinthApp\profiles\Fabulously Optimized\mods` (Windows) or `~/.local/share/ModrinthApp/profiles/FabOpt/mods` (Linux) 
+  - Press 'v' (default) to access SVC's settings, make sure you select the correct input and output devices
+  - Type `/voicechat ` to see it's commands (`/voichat invite [NAME]` is the most relevant) 
+
 ## Known Issues
-### Plasma Voice
-Sometimes shaders can interact with the proximity voice mod and cause crashes, if you experience this, set entity icons to hidden:
-![image](https://github.com/user-attachments/assets/25bad257-a7a7-4180-bee2-ff145eb6c097)
-![image](https://github.com/user-attachments/assets/adf6eb6d-b062-494a-a08d-9db5acd8ab1b)
+Nil
 ## Server-side modlist
 
 - [Essential Commands](https://github.com/John-Paul-R/Essential-Commands/) - Provides essential server commands and utilities.
@@ -47,7 +43,6 @@ Sometimes shaders can interact with the proximity voice mod and cause crashes, i
 - [Almanac](https://modrinth.com/mod/almanac) - Library mod used by other mods.
 - [Roguelike Dungeons](https://modrinth.com/mod/roguelikedungeons) - Adds complex and challenging underground dungeons.
 - [ScalableLux](https://modrinth.com/mod/scalablelux) - Adds more configurable light sources.
-- [Plasmo Voice](https://modrinth.com/plugin/plasmo-voice) - Adds proximity voice chat to the game.
 - [Actually Harvest](https://modrinth.com/mod/actually-harvest) - Allows right clicking crops to harvest.
 - [Balm](https://modrinth.com/mod/balm) - Another library mod used by other mods.
 - [Cristel Lib](https://modrinth.com/mod/cristel-l55) - A utility library for other mods.
