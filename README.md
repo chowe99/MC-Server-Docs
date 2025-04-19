@@ -10,6 +10,9 @@
   - ![image](https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588)
 - Hey That's Mine commands [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
 - Inventory sorter has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting), but if you don't want it you can sort chests by double clicking empty tiles.
+- [Mine Treasure](https://modrinth.com/datapack/mine-treasure)
+  ![image](https://github.com/user-attachments/assets/8789f526-9ed6-4929-88b3-f82f93fd7992)
+
 
 ## Client-side Only Mods
 You can install whichever client-side only mods you want to your 'Fabulously Optimized' instance, but here's a few suggestions:
@@ -67,3 +70,7 @@ Nil
 - [Cloth Config API](https://modrinth.com/mod/cloth-config)
 - [Inventory Sorter](https://modrinth.com/mod/inventory-sorting)
 - [Clumps XP](https://modrinth.com/mod/clumps)
+- [Mine Spawners](https://modrinth.com/mod/mine-spawners)
+- [Homing XP](https://modrinth.com/datapack/simple-homing-xp)
+- [Mine Treasure](https://modrinth.com/datapack/mine-treasure)
+- [Neo Enchant+](https://modrinth.com/datapack/neoenchant) 
