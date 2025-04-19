@@ -43,10 +43,19 @@ You can install whichever client-side-only mods you want to your **"Fabulously O
     - ![image](https://github.com/user-attachments/assets/4c0afb55-40e1-4987-bc3c-048f948477f6)
 
 ## Client-Server Mods
+
 Client-server mods need to be installed on the client and the server to function properly, however some mods like `Simple Voice Chat` aren't necessary to install on the client side and the server can still be accessed with a vanilla client.
-- [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game. If you cannot download it with the modrinth client then you have to manually download it to `C:\Users\User\AppData\Roaming\ModrinthApp\profiles\Fabulously Optimized\mods` (Windows) or `~/.local/share/ModrinthApp/profiles/FabOpt/mods` (Linux) 
-  - Press 'v' (default) to access SVC's settings, make sure you select the correct input and output devices
-  - Type `/voicechat ` to see it's commands (`/voichat invite [NAME]` is the most relevant) 
+
+- [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game.
+    - Try downloading it with the Modrith client first, but its likely you won't be able to add it to your **"Fabulously Optimized"** instance.
+    - To download it manually, use [this link](https://modrinth.com/plugin/simple-voice-chat?version=1.21.5&loader=fabric).
+    - Then, place it inside your **"Fabulously Optimized"** instance's mod folder.
+        - (Windows) `C:\Users\%USERNAME%\AppData\Roaming\ModrinthApp\profiles\Fabulously Optimized\mods`
+        - (Linux) `~/.local/share/ModrinthApp/profiles/FabOpt/mods`
+    - Once you've loaded it in-game:
+      - Press `v` (default) to access SVC's settings, make sure you select the correct input and output devices.
+      - Type `/voicechat` to see it's commands (`/voicechat invite <PLAYERNAME>` is the most relevant).    
+
 
 ## Known Issues
 Nil
