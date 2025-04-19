@@ -32,7 +32,7 @@ Sample images:
 
 ## Client-Server
 Client-server mods need to be installed on the client and the server to function properly, however some mods like `Simple Voice Chat` aren't necessary to install on the client side and the server can still be accessed with a vanilla client.
-- [Simle Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game. If you cannot download it with the modrinth client then you have to manually download it to `C:\Users\User\AppData\Roaming\ModrinthApp\profiles\Fabulously Optimized\mods` (Windows) or `~/.local/share/ModrinthApp/profiles/FabOpt/mods` (Linux) 
+- [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game. If you cannot download it with the modrinth client then you have to manually download it to `C:\Users\User\AppData\Roaming\ModrinthApp\profiles\Fabulously Optimized\mods` (Windows) or `~/.local/share/ModrinthApp/profiles/FabOpt/mods` (Linux) 
   - Press 'v' (default) to access SVC's settings, make sure you select the correct input and output devices
   - Type `/voicechat ` to see it's commands (`/voichat invite [NAME]` is the most relevant) 
 
