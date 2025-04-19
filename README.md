@@ -1,23 +1,36 @@
-# MC-Server-Setup
-1. Install [Modrinth](https://modrinth.com/app) launcher
-2. The only current prerequisite to the server is Easy Magic which you can download [here](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric)
-3. (Optional but highly recommended) Install [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) in Modrinth and launch Minecraft through it (Fabric v1.21.5). Fabulously Optimized is a modpack whose name speaks for itself; it can 10x ur FPS, mine went from ~150 to sometimes 1300+ fps:
-![image](https://github.com/user-attachments/assets/81eeada7-3107-443e-b296-6e36af6c2825)
+# Minecraft Server Setup
+
+1. Install [Modrinth](https://modrinth.com/app) launcher.
+2. The only current prerequisite to the server is **Easy Magic** which you can download [here](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric).
+3. _(Optional but highly recommended)_ Install [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) in Modrinth and launch Minecraft through it (Fabric v1.21.5). 
+    - **Fabulously Optimized** is a modpack whose name speaks for itself; It can 10x your FPS, mine went from ~150 to sometimes 1300+ fps.
+    - See FPS in image below:
+    - <img src="https://github.com/user-attachments/assets/81eeada7-3107-443e-b296-6e36af6c2825" width="750"/>
 
 ## Server Commands/Info
-- EssentialCommands commands can be found [here](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
-- Get Off My Lawn Recipes [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land), here is the first recipe:
-  - ![image](https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588)
-- Hey That's Mine commands [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
-- Inventory sorter has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting), but if you don't want it you can sort chests by double clicking empty tiles.
-- [Mine Treasure](https://modrinth.com/datapack/mine-treasure)
-  ![image](https://github.com/user-attachments/assets/8789f526-9ed6-4929-88b3-f82f93fd7992)
 
+- **EssentialCommands** commands can be found [here](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 
-## Client-side Only Mods
-You can install whichever client-side only mods you want to your 'Fabulously Optimized' instance, but here's a few suggestions:
+- **Get Off My Lawn** Recipes [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land)
+  - The first claim anchor recipe is below (wood, stone and an ender pearl):
+  - <img src="https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588" width="300"/>
+ 
+- **Hey That's Mine** commands [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
+
+- **InventorySorter** has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting), but if you don't want it you can sort chests by double clicking empty tiles.
+
+- **[Mine Treasure](https://modrinth.com/datapack/mine-treasure)**
+  - Important commands:
+    - `/trigger mt_stats` - Players can view their stats
+    - `/function mt:settings` - Settings.
+
+## Client-Side Only Mods
+
+You can install whichever client-side-only mods you want to your **"Fabulously Optimized"** instance, but here are a few suggestions:
+
 ### UI
 - [Simple HUD](https://modrinth.com/mod/simplehud) - Configurable Heads Up Display that shows game information.
+
 ### Visual Mods
 **Resource Packs:**
 - [Default HD 128x](https://modrinth.com/resourcepack/default-hd-128x/versions) (Not as potent as shaders, but barely impacts performance)
@@ -25,21 +38,29 @@ You can install whichever client-side only mods you want to your 'Fabulously Opt
 
 **Shaders:**
 - [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined)
-Sample images:
-![image](https://github.com/user-attachments/assets/def189a6-9266-443c-bbff-40cb64df262c)
+  - Sample images:
+    - ![image](https://github.com/user-attachments/assets/def189a6-9266-443c-bbff-40cb64df262c)
+    - ![image](https://github.com/user-attachments/assets/4c0afb55-40e1-4987-bc3c-048f948477f6)
 
-![image](https://github.com/user-attachments/assets/4c0afb55-40e1-4987-bc3c-048f948477f6)
+## Client-Server Mods
 
-## Client-Server
 Client-server mods need to be installed on the client and the server to function properly, however some mods like `Simple Voice Chat` aren't necessary to install on the client side and the server can still be accessed with a vanilla client.
-- [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game. If you cannot download it with the modrinth client then you have to manually download it to `C:\Users\User\AppData\Roaming\ModrinthApp\profiles\Fabulously Optimized\mods` (Windows) or `~/.local/share/ModrinthApp/profiles/FabOpt/mods` (Linux) 
-  - Press 'v' (default) to access SVC's settings, make sure you select the correct input and output devices
-  - Type `/voicechat ` to see it's commands (`/voichat invite [NAME]` is the most relevant) 
+
+- [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game.
+    - Try downloading it with the Modrith client first, but its likely you won't be able to add it to your **"Fabulously Optimized"** instance.
+    - To download it manually, use [this link](https://modrinth.com/plugin/simple-voice-chat?version=1.21.5&loader=fabric).
+    - Then, place it inside your **"Fabulously Optimized"** instance's mod folder.
+        - (Windows) `C:\Users\%USERNAME%\AppData\Roaming\ModrinthApp\profiles\Fabulously Optimized\mods`
+        - (Linux) `~/.local/share/ModrinthApp/profiles/FabOpt/mods`
+    - Once you've loaded it in-game:
+      - Press `v` (default) to access SVC's settings, make sure you select the correct input and output devices.
+      - Type `/voicechat` to see it's commands (`/voicechat invite <PLAYERNAME>` is the most relevant).    
+
 
 ## Known Issues
 Nil
-## Server-side modlist
 
+## Server-Side Mod List
 - [Essential Commands](https://github.com/John-Paul-R/Essential-Commands/) - Provides essential server commands and utilities.
 - [CT's Overhauled Villages](https://modrinth.com/mod/ct-overhaul-village) - Overhauls and improves village generation.
 - [LuckPerms](https://modrinth.com/plugin/luckperms) - A powerful permissions management plugin.
