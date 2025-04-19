@@ -19,10 +19,6 @@
 
 - **InventorySorter** has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting), but if you don't want it you can sort chests by double clicking empty tiles.
 
-- **[Mine Treasure](https://modrinth.com/datapack/mine-treasure)**
-  - Important commands:
-    - `/trigger mt_stats` - Players can view their stats
-    - `/function mt:settings` - Settings.
 
 ## Client-Side Only Mods
 
