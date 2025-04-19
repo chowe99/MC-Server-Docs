@@ -3,16 +3,22 @@
 1. Install [Modrinth](https://modrinth.com/app) launcher.
 2. The only current prerequisite to the server is **Easy Magic** which you can download [here](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric).
 3. _(Optional but highly recommended)_ Install [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) in Modrinth and launch Minecraft through it (Fabric v1.21.5). 
-  - **Fabulously Optimized** is a modpack whose name speaks for itself; It can 10x your FPS, mine went from ~150 to sometimes 1300+ fps.
-  - See FPS in image below:
-  - ![image](https://github.com/user-attachments/assets/81eeada7-3107-443e-b296-6e36af6c2825)
+    - **Fabulously Optimized** is a modpack whose name speaks for itself; It can 10x your FPS, mine went from ~150 to sometimes 1300+ fps.
+    - See FPS in image below:
+    - <img src="https://github.com/user-attachments/assets/81eeada7-3107-443e-b296-6e36af6c2825" width="750"/>
 
 ## Server Commands/Info
+
 - **EssentialCommands** commands can be found [here](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
-- **Get Off My Lawn** Recipes [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land), here is the first recipe:
-  - ![image](https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588)
+
+- **Get Off My Lawn** Recipes [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land)
+  - The first claim anchor recipe is below (wood, stone and an ender pearl):
+  - <img src="https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588" width="300"/>
+ 
 - **Hey That's Mine** commands [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
+
 - **InventorySorter** has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting), but if you don't want it you can sort chests by double clicking empty tiles.
+
 - **[Mine Treasure](https://modrinth.com/datapack/mine-treasure)**
   - Important commands:
     - `/trigger mt_stats` - Players can view their stats
