@@ -20,7 +20,7 @@ You can install whichever client-side only mods you want to your 'Fabulously Opt
 - [Simple HUD](https://modrinth.com/mod/simplehud) - Configurable Heads Up Display that shows game information.
 ### Visual Mods
 **Resource Packs:**
-- [Default HD 128x](https://modrinth.com/resourcepack/default-hd-128x/versions) (Not as potent as shaders, barely impacts performance)
+- [Default HD 128x](https://modrinth.com/resourcepack/default-hd-128x/versions) (Not as potent as shaders, but barely impacts performance)
 - [Dramatic Skies](https://modrinth.com/resourcepack/dramatic-skys)
 
 **Shaders:**
