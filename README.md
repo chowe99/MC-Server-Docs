@@ -64,7 +64,6 @@ Nil
 - [Forge conflict API Port](https://modrinth.com/mod/forge-config-api-port)
 - [Easy Magic](https://modrinth.com/mod/easy-magic)
 - [Puzzles Lib](https://modrinth.com/mod/puzzles-lib)
-- [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
 - [Cloth Config API](https://modrinth.com/mod/cloth-config)
 - [Inventory Sorter](https://modrinth.com/mod/inventory-sorting)
 - [Clumps XP](https://modrinth.com/mod/clumps)
