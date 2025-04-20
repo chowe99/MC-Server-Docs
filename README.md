@@ -330,9 +330,8 @@
 <ul>
   <li>
     <details>
-      <summary>Complementary Reimagined Shader</summary>
+      <summary><a href="https://modrinth.com/shader/complementary-reimagined">Complementary Reimagined</a></summary>
       <ul>
-        <li><a href="https://modrinth.com/shader/complementary-reimagined">Complementary Reimagined</a></li>
         <li>Sample images:
           <ul>
             <li><img src="https://github.com/user-attachments/assets/def189a6-9266-443c-bbff-40cb64df262c" alt="image"/></li>
