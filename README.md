@@ -2,9 +2,9 @@
 
 1. Install the [Modrinth](https://modrinth.com/app) launcher.
 2. Prerequisite client-side mods:
-    - [Easy Magic](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric)
-    - [Tom's Simple Storage](https://modrinth.com/mod/toms-storage?version=1.21.5&loader=fabric#download)
-3. _(Optional but highly recommended)_ Install [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) in Modrinth and launch Minecraft through it (Fabric v1.21.5). 
+    - [Easy Magic](https://modrinth.com/mod/easy-magic?version=1.21.6&loader=fabric)
+    - [Tom's Simple Storage](https://modrinth.com/mod/toms-storage?version=1.21.6&loader=fabric#download)
+3. _(Optional but highly recommended)_ Install [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.6#download) in Modrinth and launch Minecraft through it (Fabric v1.21.6). 
     - **Fabulously Optimized** is a modpack whose name speaks for itself; It can 10x your FPS, mine went from ~150 to sometimes 1300+ fps.
     - See FPS in image below:
     - <img src="https://github.com/user-attachments/assets/81eeada7-3107-443e-b296-6e36af6c2825" width="750"/>
@@ -13,13 +13,13 @@
 
 - **EssentialCommands** commands are [here](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 
-- **Get Off My Lawn** recipes are [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land)
+- **Get Off My Lawn** recipes are [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.6/recipes.md) (blocks that allow you to claim land)
   - The first claim anchor recipe is below (wood, stone and an ender pearl):
   - <img src="https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588" width="300"/>
  
 - **Hey That's Mine** commands are [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
 
-- **InventorySorter** has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting?version=1.21.5), but if you don't want it you can sort chests by double clicking empty tiles.
+- **InventorySorter** has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting?version=1.21.6), but if you don't want it you can sort chests by double clicking empty tiles.
 
 
 ## Client-Side Only Mods
@@ -46,7 +46,7 @@ Client-server mods need to be installed on the client and the server to function
 
 - [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game.
     - Try downloading it with the Modrith client first, but it's likely you won't be able to add it to your **"Fabulously Optimized"** instance.
-    - To download it manually, use [this link](https://modrinth.com/plugin/simple-voice-chat?version=1.21.5&loader=fabric).
+    - To download it manually, use [this link](https://modrinth.com/plugin/simple-voice-chat?version=1.21.6&loader=fabric).
     - Then, place it inside your **"Fabulously Optimized"** instance's mod folder.
         - (Windows) `%APPDATA%\ModrinthApp\profiles\Fabulously Optimized\mods`
         - (Linux) `~/.local/share/ModrinthApp/profiles/Fabulously\ Optimized/mods`
