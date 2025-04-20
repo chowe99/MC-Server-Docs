@@ -295,7 +295,7 @@
   </details>
 </li>
 
-# Optional
+# Optional Installs
 ## Mods
 <ul>
   <li>
