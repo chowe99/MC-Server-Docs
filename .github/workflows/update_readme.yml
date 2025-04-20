@@ -1,0 +1,29 @@
+# .github/workflows/update_readme.yml
+name: Update README with Minecraft Version
+
+on:
+  push:
+    branches:
+      - main  # Or your default branch
+
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set Minecraft Version
+        id: vars
+        run: echo "::set-output name=mc_version::1.21.5"  #  <--- DEFINE VARIABLE HERE
+
+      - name: Replace Version in README
+        run: |
+          MC_VERSION="${{ steps.vars.outputs.mc_version }}"
+          sed -i "s/1.21.5/\${MC_VERSION}/g" README.md
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Update README with Minecraft version variable'
