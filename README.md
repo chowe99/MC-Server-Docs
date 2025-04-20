@@ -46,7 +46,7 @@ Client-server mods need to be installed on the client and the server to function
     - Try downloading it with the Modrith client first, but its likely you won't be able to add it to your **"Fabulously Optimized"** instance.
     - To download it manually, use [this link](https://modrinth.com/plugin/simple-voice-chat?version=1.21.5&loader=fabric).
     - Then, place it inside your **"Fabulously Optimized"** instance's mod folder.
-        - (Windows) `C:\Users\%USERNAME%\AppData\Roaming\ModrinthApp\profiles\Fabulously Optimized\mods`
+        - (Windows) `%APPDATA%\ModrinthApp\profiles\Fabulously Optimized\mods`
         - (Linux) `~/.local/share/ModrinthApp/profiles/FabOpt/mods`
     - Once you've loaded it in-game:
       - Press `v` (default) to access SVC's settings, make sure you select the correct input and output devices.
