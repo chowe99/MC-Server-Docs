@@ -1,4 +1,4 @@
-# Minecraft Server Setup
+# Minecraft Server Documentation
 
 1. Install the [Modrinth](https://modrinth.com/app) launcher.
 2. The only current prerequisite to the server is **Easy Magic** which you can download [here](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric).
