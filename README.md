@@ -1,7 +1,9 @@
 # Minecraft Server Documentation
 
 1. Install the [Modrinth](https://modrinth.com/app) launcher.
-2. The only current prerequisite to the server is **Easy Magic** which you can download [here](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric).
+2. Prerequisite client-side mods:
+    - [Easy Magic](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric)
+    - [Tom's Simple Storage](https://modrinth.com/mod/toms-storage?version=1.21.5&loader=fabric#download)
 3. _(Optional but highly recommended)_ Install [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) in Modrinth and launch Minecraft through it (Fabric v1.21.5). 
     - **Fabulously Optimized** is a modpack whose name speaks for itself; It can 10x your FPS, mine went from ~150 to sometimes 1300+ fps.
     - See FPS in image below:
