@@ -17,7 +17,7 @@
  
 - **Hey That's Mine** commands [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
 
-- **InventorySorter** has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting), but if you don't want it you can sort chests by double clicking empty tiles.
+- **InventorySorter** has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting?version=1.21.5), but if you don't want it you can sort chests by double clicking empty tiles.
 
 
 ## Client-Side Only Mods
