@@ -1,11 +1,6 @@
 # .github/workflows/update_readme.yml
 name: Update README with Minecraft Version
 
-on:
-  push:
-    branches:
-      - main
-
   workflow_dispatch:  
 
 jobs:
