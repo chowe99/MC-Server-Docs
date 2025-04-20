@@ -16,21 +16,24 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Install yq
+        run: |
+          sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/local/bin/yq
+          sudo chmod +x /usr/local/bin/yq
 
-      - name: Get Minecraft Version from Config
+      - name: Get Minecraft Version from config.yml
         id: vars
         run: |
-          MC_VERSION=$(jq -r '.mc-version' config.yml)
-          echo "::set-output name=mc_version::$MC_VERSION"
+          MC_VERSION=$(yq -r '.["mc-version"]' config.yml)
+          echo "mc_version=$MC_VERSION" >> $GITHUB_OUTPUT
 
       - name: Replace Version in README
         run: |
           MC_VERSION="${{ steps.vars.outputs.mc_version }}"
-          sed -i "s/1.21.5/\${MC_VERSION}/g" README.md
+          sed -i "s/1.21.5/${MC_VERSION}/g" README.md
 
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'Update README with Minecraft version variable'
+
