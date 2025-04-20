@@ -21,19 +21,22 @@ jobs:
           sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/local/bin/yq
           sudo chmod +x /usr/local/bin/yq
 
-      - name: Get Minecraft Version from config.yml
+      - name: Read Versions from config.yml
         id: vars
         run: |
-          MC_VERSION=$(yq -r '.["mc-version"]' config.yml)
-          echo "mc_version=$MC_VERSION" >> $GITHUB_OUTPUT
+          OLD_VERSION=$(yq -r '.["old-version"]' config.yml)
+          NEW_VERSION=$(yq -r '.["new-version"]' config.yml)
+          echo "old_version=$OLD_VERSION" >> $GITHUB_OUTPUT
+          echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
 
-      - name: Replace Version in README
+      - name: Replace version in README
         run: |
-          MC_VERSION="${{ steps.vars.outputs.mc_version }}"
-          sed -i "s/1.21.5/${MC_VERSION}/g" README.md
+          OLD_VERSION="${{ steps.vars.outputs.old_version }}"
+          NEW_VERSION="${{ steps.vars.outputs.new_version }}"
+          sed -i "s/${OLD_VERSION}/${NEW_VERSION}/g" README.md
 
       - name: Commit and Push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Update README with Minecraft version variable'
+          commit_message: 'Update README with Minecraft version ${{ steps.vars.outputs.new_version }}'
 
