@@ -1,6 +1,7 @@
 # Minecraft Server Documentation
 
 ## Initial Setup
+
 <ol>
   <li>Install the <a href="https://modrinth.com/app">Modrinth</a> launcher.</li>
   <li>
@@ -22,68 +23,336 @@
 </ol>
 
 ## Server Commands/Info
+<details>
+  <summary>EssentialCommands - Command List</summary>
+  <h2>Commands</h2>
+  <p>All of these commands support automatic tab completion using Minecraft's new commands system.</p>
+  <p>See the <a href="https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions">full List of Commands &amp; Permissions</a>.</p>
+  <h3>Spawn</h3>
+  <ul>
+    <li>/spawn</li>
+    <li>/spawn set</li>
+  </ul>
+  <h3>Teleport requests</h3>
+  <ul>
+    <li>/tpa &lt;target-player&gt;</li>
+    <li>/tpahere &lt;target-player&gt;</li>
+    <li>/tpaccept &lt;target-player&gt;</li>
+    <li>/tpdeny &lt;target-player&gt;</li>
+  </ul>
+  <h3>Player Homes</h3>
+  <ul>
+    <li>/home set &lt;home-name&gt;</li>
+    <li>/home tp &lt;home-name&gt;</li>
+    <li>/home delete &lt;home-name&gt;</li>
+    <li>/home list</li>
+  </ul>
+  <h3>Warps</h3>
+  <ul>
+    <li>/warp set &lt;warp-name&gt;</li>
+    <li>/warp tp &lt;warp-name&gt;</li>
+    <li>/warp delete &lt;warp-name&gt;</li>
+    <li>/warp list</li>
+  </ul>
+  <h3>Back</h3>
+  <ul>
+    <li>/back</li>
+  </ul>
+  <p>Want to teleport to where you died? Enable <code>allow_back_on_death</code> in the <a href="config-docs">config</a>.</p>
+  <h3>Nickname</h3>
+  <ul>
+    <li>/nickname set &lt;nickname&gt;</li>
+    <li>/nickname clear</li>
+    <li>/nickname reveal &lt;nickname&gt;</li>
+  </ul>
+  <h3>Random Teleport (/wild equivalent)</h3>
+  <ul>
+    <li>/randomteleport</li>
+    <li>/rtp</li>
+  </ul>
+  <h3>Workbench</h3>
+  <ul>
+    <li>/workbench</li>
+    <li>/anvil</li>
+    <li>/enderchest</li>
+    <li>/stonecutter</li>
+    <li>/grindstone</li>
+    <li>/wastebin</li>
+  </ul>
+  <h3>Kitchen sink</h3>
+  <ul>
+    <li>/afk</li>
+    <li>/fly</li>
+    <li>/fly &lt;target-player&gt;</li>
+    <li>/invuln</li>
+    <li>/invuln &lt;target-player&gt;</li>
+    <li>/top</li>
+    <li>/day</li>
+    <li>/gametime</li>
+  </ul>
+  <h3>Config</h3>
+  <ul>
+    <li>/essentialcommands config reload</li>
+  </ul>
+</details>
+<details>
+  <summary><b>Get Off My Lawn</b> Recipes and Augments</summary>
+  <h1>Claim Anchors</h1>
+  <h2>Makeshift Claim Anchor</h2>
+  <img src="recipes/makeshift_claim_anchor.png" alt="Makeshift Claim Anchor Recipe"/>
+  <h2>Reinforced Claim Anchor</h2>
+  <img src="recipes/reinforced_claim_anchor.png" alt="Reinforced Claim Anchor Recipe"/>
+  <h3>Upgrade</h3>
+  <img src="recipes/reinforced_upgrade_kit.png" alt="Reinforced Upgrade Kit Recipe"/>
+  <h2>Glistening Claim Anchor</h2>
+  <img src="recipes/glistening_claim_anchor.png" alt="Glistening Claim Anchor Recipe"/>
+  <h3>Upgrade</h3>
+  <img src="recipes/glistening_upgrade_kit.png" alt="Glistening Upgrade Kit Recipe"/>
+  <h2>Crystal Claim Anchor</h2>
+  <img src="recipes/crystal_claim_anchor.png" alt="Crystal Claim Anchor Recipe"/>
+  <h3>Upgrade</h3>
+  <img src="recipes/crystal_upgrade_kit.png" alt="Crystal Upgrade Kit Recipe"/>
+  <h2>Emeradic Claim Anchor</h2>
+  <img src="recipes/emeradic_claim_anchor.png" alt="Emeradic Claim Anchor Recipe"/>
+  <h3>Upgrade</h3>
+  <img src="recipes/emeradic_upgrade_kit.png" alt="Emeradic Upgrade Kit Recipe"/>
+  <h2>Withered Claim Anchor</h2>
+  <img src="recipes/withered_claim_anchor.png" alt="Withered Claim Anchor Recipe"/>
+  <h3>Upgrade</h3>
+  <img src="recipes/withered_upgrade_kit.png" alt="Withered Upgrade Kit Recipe"/>
+  <h1>Claim Augments</h1>
+  <h2>Angelic Aura</h2>
+  <img src="recipes/angelic_aura.png" alt="Angelic Aura Recipe"/>
+  <h2>Chaos Zone</h2>
+  <img src="recipes/chaos_zone.png" alt="Chaos Zone Recipe"/>
+  <h2>Ender Binding</h2>
+  <img src="recipes/ender_binding.png" alt="Ender Binding Recipe"/>
+  <h2>Explosion Controller</h2>
+  <img src="recipes/explosion_controller.png" alt="Explosion Controller Recipe"/>
+  <h2>Force Field</h2>
+  <img src="recipes/force_field.png" alt="Force Field Recipe"/>
+  <h2>Greeter</h2>
+  <img src="recipes/greeter.png" alt="Greeter Recipe"/>
+  <h2>Heaven Wings</h2>
+  <img src="recipes/heaven_wings.png" alt="Heaven Wings Recipe"/>
+  <h2>Lake Spirit's Grace</h2>
+  <img src="recipes/lake_spirit_grace.png" alt="Lake Spirit's Grace Recipe"/>
+  <h2>PvP Arena</h2>
+  <img src="recipes/pvp_arena.png" alt="PvP Arena Recipe"/>
+  <h2>Village Core</h2>
+  <img src="recipes/village_core.png" alt="Village Core Recipe"/>
+  <h2>Withering Seal</h2>
+  <img src="recipes/withering_seal.png" alt="Withering Seal Recipe"/>
+  <h1>Others</h1>
+  <h2>Goggles of (Claim) Revealing</h2>
+  <img src="recipes/goggles.png" alt="Goggles Recipe"/>
+</details>
+<details>
+  <summary>Hey That's Mine Commands and Config</summary>
+  <h2>Using HTM</h2>
+  <p>The mod has multiple commands which you can use on your containers</p>
+  <h3>Flag</h3>
+  <p><code>/htm flag</code>: Checks the flags of a specific container. Left click on the container after running this command to check</p>
+  <p><code>/htm flag &lt;type&gt; &lt;value&gt;</code>: Left click a container to set the flag</p>
+  <p>Permission node: <code>htm.command.flag</code></p>
+  <h3>Set</h3>
+  <p><code>/htm set PUBLIC</code>: Allows everyone to access the container</p>
+  <p><code>/htm set PRIVATE</code>: Allows only the owner and those with permissions to access the container</p>
+  <p><code>/htm set KEY</code>: Allows only those with a key to access the container</p>
+  <p>Permission node: <code>htm.command.set</code></p>
+  <h3>Trust</h3>
+  <p><code>/htm trust &lt;player&gt; [global]</code>: Allows a player to access that container if private</p>
+  <p>Permission node: <code>htm.command.trust</code></p>
+  <h3>Untrust</h3>
+  <p><code>/htm untrust &lt;player&gt; [global]</code>: Revokes a player's access to the container</p>
+  <p>Permission node: <code>htm.command.trust</code></p>
+  <h3>Remove</h3>
+  <p><code>/htm remove</code>: Removes all protections from a container</p>
+  <p>Permission node: <code>htm.command.remove</code></p>
+  <h3>Transfer</h3>
+  <p><code>/htm transfer &lt;player&gt;</code>: Transfers ownership to another player</p>
+  <p>Permission node: <code>htm.command.transfer</code></p>
+  <h3>Persist</h3>
+  <p>Toggles persist mode, which allows you to continue executing the same action without typing the command again</p>
+  <p><code>/htm persist</code></p>
+  <p>Permission node: <code>htm.command.persist</code></p>
+  <h3>Quiet</h3>
+  <p>Toggles no message mode, which hides non-command messages like automatic protection creation and override.</p>
+  <p><code>/htm quiet</code></p>
+  <p>Permission node: <code>htm.command.quiet</code></p>
+  <h3>Config</h3>
+  <p><code>canTrustedPlayersBreakChests</code>: Toggles whether players trusted to a locked container can break the container (set to false by default meaning only the owner can break a locked container).</p>
+  <p><code>defaultFlags</code>:</p>
+  <ul>
+    <li><code>hoppers</code>: Toggles whether hoppers can pull from locked containers by default (true by default meaning hoppers can pull from locked containers).</li>
+  </ul>
+  <p><code>autolockingContainers</code>: List of containers which will be set to PRIVATE by default (remove items in the list to make them set to public by default).</p>
+  <h3>Additional permissions</h3>
+  <p><code>htm.admin</code>: Allows unrestricted access to containers and other managerial permissions</p>
+</details>
+<b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.
+</li>
+<li>
+  <details>
+    <summary>Neo Enchant+ Enchantments List</summary>
+    <h2>Neo Enchantments List</h2>
+    <ul>
+      <li>
+        <strong>Armor</strong>:
+        <ul>
+          <li><strong>Fury</strong>: Decreases armor in percent and grants armor penetration and increased damage percentage on your hits.</li>
+          <li><strong>Life+</strong>: Gives the player extra hearts.</li>
+          <li><strong>Venom Protection</strong>: Provides protection against negative effects.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Helmet</strong>:
+        <ul>
+          <li><strong>Bright Vision</strong>: Gives night vision to the player.</li>
+          <li><strong>Auto-Feed</strong>: Automatically feeds you every minute.</li>
+          <li><strong>Voidless</strong>: If you fall into the void, you briefly gain a levitation effect.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Chestplate</strong>:
+        <ul>
+          <li><strong>Builder Arms</strong>: Allows you to place and break blocks from a longer distance.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Leggings</strong>:
+        <ul>
+          <li><strong>Fast Swim</strong>: Grants the player a dolphin Grace effect.</li>
+          <li><strong>Leaping</strong>: Boosts the player.</li>
+          <li><strong>Oversize</strong>: Increase entity size</li>
+          <li><strong>Dwarfed</strong>: Decrease enity size</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Boots</strong>:
+        <ul>
+          <li><strong>Step Assist</strong>: Allows you to walk up blocks more easily.</li>
+          <li><strong>SkyWalk</strong>: Allows you to fly if there is a 4 blocks gap below your feet. To desced just crouch.</li>
+          <li><strong>Lava Walker</strong>: Allows the player to walk on lava.</li>
+          <li><strong>Agility</strong>: Increases player speed.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Elytra</strong>:
+        <ul>
+          <li><strong>Armored</strong>: For elytra, reduce the damage taken.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Sword</strong>:
+        <ul>
+          <li><strong>Reach</strong>: Increase the range of your attack.</li>
+          <li><strong>XpBoost</strong>: Gain additional experience from killing mobs.</li>
+          <li><strong>Life Steal</strong>: Drains health from the target and transfers it to the player.</li>
+          <li><strong>Poison Aspect</strong>: Poisons the mob upon hitting it.</li>
+          <li><strong>Fear</strong>: When you hit a creeper, increase delays their explosion by 12.5 seconds.</li>
+          <li><strong>Pull</strong> Allows you to retrieve a mob egg with a small probability when you kill a monster.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Mace</strong>:
+        <ul>
+          <li><strong>Striker</strong>: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.</li>
+          <li><strong>Wind Propulsion</strong> When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".</li>
+      </li>
+      <li>
+        <strong>Tools</strong>:
+        <ul>
+          <li><strong>Auto-Smelt</strong>: Automatically smelts items.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Axe</strong>:
+        <ul>
+          <li><strong>Timber</strong>: Cut down a tree with one strike.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Pickaxe</strong>:
+        <ul>
+          <li><strong>Bedrock Breaker</strong>: Allows you to break bedrock, but consumes 200 durability per block.</li>
+          <li><strong>VeinMiner</strong>: If you break a mineral block, all surrounding minerals also break.</li>
+          <li><strong>Spawner Touch</strong>: Allows your pickaxe to retrieve spawners.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Hoe</strong>:
+        <ul>
+          <li><strong>Scyther</strong>: Allows you to transform dirt in farmland in x by z surface depending enchantment levels</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Bow</strong>:
+        <ul>
+          <li><strong>Explosive Arrow</strong>: When arrow hit a block, create an explosion, the entity take damage.</li>
+          <li><strong>Accuracy Shot</strong>: Arrows fly straight.</li>
+          <li><strong>Breezing Arrow</strong>: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.</li>
+        </ul>
+      </li>
+    </ul>
+  </details>
+</li>
+
+## Optional
+
+### Mods
+
 <ul>
-  <li><b>EssentialCommands</b> commands are <a href="https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions">here</a></li>
   <li>
     <details>
-      <summary><b>Get Off My Lawn</b> recipes are <a href="https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md">here</a> (blocks that allow you to claim land)</summary>
+      <summary><a href="https://modrinth.com/plugin/simple-voice-chat">Simple Voice Chat</a> - You won't be able to use proximity voice chat without this.</summary>
       <ul>
-        <li>The first claim anchor recipe is below (wood, stone and an ender pearl):</li>
-        <li><img src="https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588" width="300"/></li>
+        <li>Try downloading it with the Modrith client first, but it's likely you won't be able to add it to your <b>"Fabulously Optimized"</b> instance.</li>
+        <li>To download it manually, use <a href="https://modrinth.com/plugin/simple-voice-chat?version=1.21.5&loader=fabric">this link</a>.</li>
+        <li>Then, place it inside your <b>"Fabulously Optimized"</b> instance's mod folder.</li>
+        <ul>
+          <li>(Windows) <code>%APPDATA%\ModrinthApp\profiles\Fabulously Optimized\mods</code></li>
+          <li>(Linux) <code>~/.local/share/ModrinthApp/profiles/Fabulously\ Optimized/mods</code></li>
+        </ul>
+        <li>Once you've loaded it in-game:</li>
+        <ul>
+          <li>Press <code>v</code> (default) to access SVC's settings, make sure you select the correct input and output devices.</li>
+          <li>Type <code>/voicechat</code> to see it's commands (<code>/voicechat invite &lt;PLAYERNAME&gt;</code> is the most relevant).</li>
+        </ul>
       </ul>
     </details>
   </li>
-  <li><b>Hey That's Mine</b> commands are <a href="https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm">here</a> (Prevents stealing of placed chests/items)</li>
-  <li><b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.</li>
-  <li><b>Neo Enchant+</b> enchantment's <a href="https://github.com/Hardel-DW/NeoEnchant?tab=readme-ov-file#neo-enchantments-list">list</a></li>
+  <li><a href="https://modrinth.com/mod/simplehud">Simple HUD</a> - Configurable Heads Up Display that shows game information.</li>
 </ul>
 
-## Optional
-### Mods
-- <details>
-  <summary><a href="https://modrinth.com/plugin/simple-voice-chat">Simple Voice Chat</a> - You won't be able to use proximity voice chat without this.</summary>
-  <ul>
-    <ul>
-      <li>Try downloading it with the Modrith client first, but it's likely you won't be able to add it to your <b>"Fabulously Optimized"</b> instance.</li>
-      <li>To download it manually, use <a href="https://modrinth.com/plugin/simple-voice-chat?version=1.21.5&loader=fabric">this link</a>.</li>
-      <li>Then, place it inside your <b>"Fabulously Optimized"</b> instance's mod folder.</li>
-      <ul>
-        <li>(Windows) <code>%APPDATA%\ModrinthApp\profiles\Fabulously Optimized\mods</code></li>
-        <li>(Linux) <code>~/.local/share/ModrinthApp/profiles/Fabulously\ Optimized/mods</code></li>
-      </ul>
-      <li>Once you've loaded it in-game:</li>
-      <ul>
-        <li>Press <code>v</code> (default) to access SVC's settings, make sure you select the correct input and output devices.</li>
-        <li>Type <code>/voicechat</code> to see it's commands (<code>/voicechat invite &lt;PLAYERNAME&gt;</code> is the most relevant).</li>
-      </ul>
-    </ul>
-  </ul>
-</details>
-
-- [Simple HUD](https://modrinth.com/mod/simplehud) - Configurable Heads Up Display that shows game information.
-
 ### Resource Packs
-- [Default HD 128x](https://modrinth.com/resourcepack/default-hd-128x/versions) (Not as potent as shaders, but barely impacts performance)
-- [Dramatic Skies](https://modrinth.com/resourcepack/dramatic-skys)
+
+<ul>
+  <li><a href="https://modrinth.com/resourcepack/default-hd-128x/versions">Default HD 128x</a> (Not as potent as shaders, but barely impacts performance)</li>
+  <li><a href="https://modrinth.com/resourcepack/dramatic-skys">Dramatic Skies</a></li>
+</ul>
 
 ### Shaders
-<details>
-  <summary><a href="https://modrinth.com/shader/complementary-reimagined">Complementary Reimagined</a></summary>
-  <ul>
-    <li>Sample images:
+
+<ul>
+  <li>
+    <details>
+      <summary>Complementary Reimagined Shader</summary>
       <ul>
-        <li><img src="https://github.com/user-attachments/assets/def189a6-9266-443c-bbff-40cb64df262c" alt="image"></li>
-        <li><img src="https://github.com/user-attachments/assets/4c0afb55-40e1-4987-bc3c-048f948477f6" alt="image"></li>
+        <li><a href="https://modrinth.com/shader/complementary-reimagined">Complementary Reimagined</a></li>
+        <li>Sample images:
+          <ul>
+            <li><img src="https://github.com/user-attachments/assets/def189a6-9266-443c-bbff-40cb64df262c" alt="image"/></li>
+            <li><img src="https://github.com/user-attachments/assets/4c0afb55-40e1-4987-bc3c-048f948477f6" alt="image"/></li>
+          </ul>
+        </li>
       </ul>
-    </li>
-  </ul>
-</details>
-
-
-
-
+    </details>
+  </li>
+</ul>
 
 ## Known Issues
+
 Nil
 
 ## Server-Side Mod List
@@ -118,4 +387,3 @@ Nil
 - [Homing XP](https://modrinth.com/datapack/simple-homing-xp)
 - [Mine Treasure](https://modrinth.com/datapack/mine-treasure)
 - [Neo Enchant+](https://modrinth.com/datapack/neoenchant) 
-
