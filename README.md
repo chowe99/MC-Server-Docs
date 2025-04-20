@@ -1,6 +1,6 @@
 # Minecraft Server Setup
 
-1. Install [Modrinth](https://modrinth.com/app) launcher.
+1. Install the [Modrinth](https://modrinth.com/app) launcher.
 2. The only current prerequisite to the server is **Easy Magic** which you can download [here](https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric).
 3. _(Optional but highly recommended)_ Install [Fabulously Optimized](https://modrinth.com/modpack/fabulously-optimized?version=1.21.5#download) in Modrinth and launch Minecraft through it (Fabric v1.21.5). 
     - **Fabulously Optimized** is a modpack whose name speaks for itself; It can 10x your FPS, mine went from ~150 to sometimes 1300+ fps.
@@ -9,13 +9,13 @@
 
 ## Server Commands/Info
 
-- **EssentialCommands** commands can be found [here](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
+- **EssentialCommands** commands are [here](https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions)
 
-- **Get Off My Lawn** Recipes [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land)
+- **Get Off My Lawn** recipes are [here](https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/recipes.md) (blocks that allow you to claim land)
   - The first claim anchor recipe is below (wood, stone and an ender pearl):
   - <img src="https://github.com/user-attachments/assets/4f889253-2d2d-4dce-9a5f-518e651bd588" width="300"/>
  
-- **Hey That's Mine** commands [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
+- **Hey That's Mine** commands are [here](https://github.com/QuiltServerTools/HeyThatsMine?tab=readme-ov-file#using-htm) (Prevents stealing of placed chests/items)
 
 - **InventorySorter** has a client-side mod available [here](https://modrinth.com/mod/inventory-sorting?version=1.21.5), but if you don't want it you can sort chests by double clicking empty tiles.
 
@@ -40,14 +40,14 @@ You can install whichever client-side-only mods you want to your **"Fabulously O
 
 ## Client-Server Mods
 
-Client-server mods need to be installed on the client and the server to function properly, however some mods like `Simple Voice Chat` aren't necessary to install on the client side and the server can still be accessed with a vanilla client.
+Client-server mods need to be installed on the client and the server to function properly, however some mods like `Simple Voice Chat` aren't necessary to install on the client side ~~and the server can still be accessed with a vanilla client~~.
 
 - [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat) - Adds proximity voice chat to the game.
-    - Try downloading it with the Modrith client first, but its likely you won't be able to add it to your **"Fabulously Optimized"** instance.
+    - Try downloading it with the Modrith client first, but it's likely you won't be able to add it to your **"Fabulously Optimized"** instance.
     - To download it manually, use [this link](https://modrinth.com/plugin/simple-voice-chat?version=1.21.5&loader=fabric).
     - Then, place it inside your **"Fabulously Optimized"** instance's mod folder.
         - (Windows) `%APPDATA%\ModrinthApp\profiles\Fabulously Optimized\mods`
-        - (Linux) `~/.local/share/ModrinthApp/profiles/FabOpt/mods`
+        - (Linux) `~/.local/share/ModrinthApp/profiles/Fabulously\ Optimized/mods`
     - Once you've loaded it in-game:
       - Press `v` (default) to access SVC's settings, make sure you select the correct input and output devices.
       - Type `/voicechat` to see it's commands (`/voicechat invite <PLAYERNAME>` is the most relevant).    
