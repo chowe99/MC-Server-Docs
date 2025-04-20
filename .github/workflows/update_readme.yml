@@ -4,19 +4,26 @@ name: Update README with Minecraft Version
 on:
   push:
     branches:
-      - main  # Or your default branch
+      - main  
 
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
   update_readme:
     runs-on: ubuntu-latest
+    permissions:  
+      write-all: true
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set Minecraft Version
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Get Minecraft Version from Config
         id: vars
-        run: echo "::set-output name=mc_version::1.21.5"  #  <--- DEFINE VARIABLE HERE
+        run: |
+          MC_VERSION=$(jq -r '.mc-version' config.yml)
+          echo "::set-output name=mc_version::$MC_VERSION"
 
       - name: Replace Version in README
         run: |
