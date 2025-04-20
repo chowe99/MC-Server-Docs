@@ -1,5 +1,5 @@
 # Minecraft Server Documentation
-# Initial Setup
+## Initial Setup
 <ol>
   <li>Install the <a href="https://modrinth.com/app">Modrinth</a> launcher.</li>
   <li>
@@ -20,55 +20,55 @@
   </li>
 </ol>
 
-# Server Commands/Info
+## Server Commands/Info
 <details>
   <summary><b>EssentialCommands - Command List</b></summary>
-  <h3>Commands</h3>
+  <h4>Commands</h4>
   <p>All of these commands support automatic tab completion using Minecraft's new commands system.</p>
   <p>See the <a href="https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions">full List of Commands &amp; Permissions</a>.</p>
-  <h4>Spawn</h4>
+  <h5>Spawn</h5>
   <ul>
     <li>/spawn</li>
     <li>/spawn set</li>
   </ul>
-  <h4>Teleport requests</h4>
+  <h5>Teleport requests</h5>
   <ul>
     <li>/tpa &lt;target-player&gt;</li>
     <li>/tpahere &lt;target-player&gt;</li>
     <li>/tpaccept &lt;target-player&gt;</li>
     <li>/tpdeny &lt;target-player&gt;</li>
   </ul>
-  <h4>Player Homes</h4>
+  <h5>Player Homes</h5>
   <ul>
     <li>/home set &lt;home-name&gt;</li>
     <li>/home tp &lt;home-name&gt;</li>
     <li>/home delete &lt;home-name&gt;</li>
     <li>/home list</li>
   </ul>
-  <h4>Warps</h4>
+  <h5>Warps</h5>
   <ul>
     <li>/warp set &lt;warp-name&gt;</li>
     <li>/warp tp &lt;warp-name&gt;</li>
     <li>/warp delete &lt;warp-name&gt;</li>
     <li>/warp list</li>
   </ul>
-  <h4>Back</h4>
+  <h5>Back</h5>
   <ul>
     <li>/back</li>
   </ul>
   <p>Want to teleport to where you died? Enable <code>allow_back_on_death</code> in the <a href="config-docs">config</a>.</p>
-  <h4>Nickname</h4>
+  <h5>Nickname</h5>
   <ul>
     <li>/nickname set &lt;nickname&gt;</li>
     <li>/nickname clear</li>
     <li>/nickname reveal &lt;nickname&gt;</li>
   </ul>
-  <h4>Random Teleport (/wild equivalent)</h4>
+  <h5>Random Teleport (/wild equivalent)</h5>
   <ul>
     <li>/randomteleport</li>
     <li>/rtp</li>
   </ul>
-  <h4>Workbench</h4>
+  <h5>Workbench</h5>
   <ul>
     <li>/workbench</li>
     <li>/anvil</li>
@@ -77,7 +77,7 @@
     <li>/grindstone</li>
     <li>/wastebin</li>
   </ul>
-  <h4>Kitchen sink</h4>
+  <h5>Kitchen sink</h5>
   <ul>
     <li>/afk</li>
     <li>/fly</li>
@@ -88,110 +88,110 @@
     <li>/day</li>
     <li>/gametime</li>
   </ul>
-  <h4>Config</h4>
+  <h5>Config</h5>
   <ul>
     <li>/essentialcommands config reload</li>
   </ul>
 </details>
 <details>
   <summary><b>Get Off My Lawn Recipes and Augments</b></summary>
-  <h3>Claim Anchors</h3>
-  <h4>Makeshift Claim Anchor</h4>
+  <h4>Claim Anchors</h4>
+  <h5>Makeshift Claim Anchor</h5>
   <img src="recipes/makeshift_claim_anchor.png" alt="Makeshift Claim Anchor Recipe"/>
-  <h4>Reinforced Claim Anchor</h4>
+  <h5>Reinforced Claim Anchor</h5>
   <img src="recipes/reinforced_claim_anchor.png" alt="Reinforced Claim Anchor Recipe"/>
-  <h5>Upgrade</h5>
+  <h6>Upgrade</h6>
   <img src="recipes/reinforced_upgrade_kit.png" alt="Reinforced Upgrade Kit Recipe"/>
-  <h4>Glistening Claim Anchor</h4>
+  <h5>Glistening Claim Anchor</h5>
   <img src="recipes/glistening_claim_anchor.png" alt="Glistening Claim Anchor Recipe"/>
-  <h5>Upgrade</h5>
+  <h6>Upgrade</h6>
   <img src="recipes/glistening_upgrade_kit.png" alt="Glistening Upgrade Kit Recipe"/>
-  <h4>Crystal Claim Anchor</h4>
+  <h5>Crystal Claim Anchor</h5>
   <img src="recipes/crystal_claim_anchor.png" alt="Crystal Claim Anchor Recipe"/>
-  <h5>Upgrade</h5>
+  <h6>Upgrade</h6>
   <img src="recipes/crystal_upgrade_kit.png" alt="Crystal Upgrade Kit Recipe"/>
-  <h4>Emeradic Claim Anchor</h4>
+  <h5>Emeradic Claim Anchor</h5>
   <img src="recipes/emeradic_claim_anchor.png" alt="Emeradic Claim Anchor Recipe"/>
-  <h5>Upgrade</h5>
+  <h6>Upgrade</h6>
   <img src="recipes/emeradic_upgrade_kit.png" alt="Emeradic Upgrade Kit Recipe"/>
-  <h4>Withered Claim Anchor</h4>
+  <h5>Withered Claim Anchor</h5>
   <img src="recipes/withered_claim_anchor.png" alt="Withered Claim Anchor Recipe"/>
-  <h5>Upgrade</h5>
+  <h6>Upgrade</h6>
   <img src="recipes/withered_upgrade_kit.png" alt="Withered Upgrade Kit Recipe"/>
-  <h3>Claim Augments</h3>
-  <h4>Angelic Aura</h4>
+  <h4>Claim Augments</h4>
+  <h5>Angelic Aura</h5>
   <img src="recipes/angelic_aura.png" alt="Angelic Aura Recipe"/>
-  <h4>Chaos Zone</h4>
+  <h5>Chaos Zone</h5>
   <img src="recipes/chaos_zone.png" alt="Chaos Zone Recipe"/>
-  <h4>Ender Binding</h4>
+  <h5>Ender Binding</h5>
   <img src="recipes/ender_binding.png" alt="Ender Binding Recipe"/>
-  <h4>Explosion Controller</h4>
+  <h5>Explosion Controller</h5>
   <img src="recipes/explosion_controller.png" alt="Explosion Controller Recipe"/>
-  <h4>Force Field</h4>
+  <h5>Force Field</h5>
   <img src="recipes/force_field.png" alt="Force Field Recipe"/>
-  <h4>Greeter</h4>
+  <h5>Greeter</h5>
   <img src="recipes/greeter.png" alt="Greeter Recipe"/>
-  <h4>Heaven Wings</h4>
+  <h5>Heaven Wings</h5>
   <img src="recipes/heaven_wings.png" alt="Heaven Wings Recipe"/>
-  <h4>Lake Spirit's Grace</h4>
+  <h5>Lake Spirit's Grace</h5>
   <img src="recipes/lake_spirit_grace.png" alt="Lake Spirit's Grace Recipe"/>
-  <h4>PvP Arena</h4>
+  <h5>PvP Arena</h5>
   <img src="recipes/pvp_arena.png" alt="PvP Arena Recipe"/>
-  <h4>Village Core</h4>
+  <h5>Village Core</h5>
   <img src="recipes/village_core.png" alt="Village Core Recipe"/>
-  <h4>Withering Seal</h4>
+  <h5>Withering Seal</h5>
   <img src="recipes/withering_seal.png" alt="Withering Seal Recipe"/>
-  <h3>Others</h3>
-  <h4>Goggles of (Claim) Revealing</h4>
+  <h4>Others</h4>
+  <h5>Goggles of (Claim) Revealing</h5>
   <img src="recipes/goggles.png" alt="Goggles Recipe"/>
 </details>
 <details>
   <summary><b>Hey That's Mine Commands and Config</b></summary>
-  <h3>Using HTM</h3>
+  <h4>Using HTM</h4>
   <p>The mod has multiple commands which you can use on your containers</p>
-  <h4>Flag</h4>
+  <h5>Flag</h5>
   <p><code>/htm flag</code>: Checks the flags of a specific container. Left click on the container after running this command to check</p>
   <p><code>/htm flag &lt;type&gt; &lt;value&gt;</code>: Left click a container to set the flag</p>
   <p>Permission node: <code>htm.command.flag</code></p>
-  <h4>Set</h4>
+  <h5>Set</h5>
   <p><code>/htm set PUBLIC</code>: Allows everyone to access the container</p>
   <p><code>/htm set PRIVATE</code>: Allows only the owner and those with permissions to access the container</p>
   <p><code>/htm set KEY</code>: Allows only those with a key to access the container</p>
   <p>Permission node: <code>htm.command.set</code></p>
-  <h4>Trust</h4>
+  <h5>Trust</h5>
   <p><code>/htm trust &lt;player&gt; [global]</code>: Allows a player to access that container if private</p>
   <p>Permission node: <code>htm.command.trust</code></p>
-  <h4>Untrust</h4>
+  <h5>Untrust</h5>
   <p><code>/htm untrust &lt;player&gt; [global]</code>: Revokes a player's access to the container</p>
   <p>Permission node: <code>htm.command.trust</code></p>
-  <h4>Remove</h4>
+  <h5>Remove</h5>
   <p><code>/htm remove</code>: Removes all protections from a container</p>
   <p>Permission node: <code>htm.command.remove</code></p>
-  <h4>Transfer</h4>
+  <h5>Transfer</h5>
   <p><code>/htm transfer &lt;player&gt;</code>: Transfers ownership to another player</p>
   <p>Permission node: <code>htm.command.transfer</code></p>
-  <h4>Persist</h4>
+  <h5>Persist</h5>
   <p>Toggles persist mode, which allows you to continue executing the same action without typing the command again</p>
   <p><code>/htm persist</code></p>
   <p>Permission node: <code>htm.command.persist</code></p>
-  <h4>Quiet</h4>
+  <h5>Quiet</h5>
   <p>Toggles no message mode, which hides non-command messages like automatic protection creation and override.</p>
   <p><code>/htm quiet</code></p>
   <p>Permission node: <code>htm.command.quiet</code></p>
-  <h4>Config</h4>
+  <h5>Config</h5>
   <p><code>canTrustedPlayersBreakChests</code>: Toggles whether players trusted to a locked container can break the container (set to false by default meaning only the owner can break a locked container).</p>
   <p><code>defaultFlags</code>:</p>
   <ul>
     <li><code>hoppers</code>: Toggles whether hoppers can pull from locked containers by default (true by default meaning hoppers can pull from locked containers).</li>
   </ul>
   <p><code>autolockingContainers</code>: List of containers which will be set to PRIVATE by default (remove items in the list to make them set to public by default).</p>
-  <h4>Additional permissions</h4>
+  <h5>Additional permissions</h5>
   <p><code>htm.admin</code>: Allows unrestricted access to containers and other managerial permissions</p>
 </details>
 <p><b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.</p>
   <details>
     <summary><b>Neo Enchant+ Enchantments List</b></summary>
-    <h3>Neo Enchantments List</h3>
+    <h4>Neo Enchantments List</h4>
     <ul>
       <li>
         <strong>Armor</strong>:
@@ -295,8 +295,8 @@
   </details>
 </li>
 
-# Optional Installs
-## Mods
+## Optional Installs
+### Mods
 <ul>
   <li>
     <details>
@@ -320,13 +320,13 @@
   <li><a href="https://modrinth.com/mod/simplehud">Simple HUD</a> - Configurable Heads Up Display that shows game information.</li>
 </ul>
 
-## Resource Packs
+### Resource Packs
 <ul>
   <li><a href="https://modrinth.com/resourcepack/default-hd-128x/versions">Default HD 128x</a> (Not as potent as shaders, but barely impacts performance)</li>
   <li><a href="https://modrinth.com/resourcepack/dramatic-skys">Dramatic Skies</a></li>
 </ul>
 
-## Shaders
+### Shaders
 <ul>
   <li>
     <details>
@@ -344,10 +344,10 @@
   </li>
 </ul>
 
-# Known Issues
+## Known Issues
 Nil
 
-# Server-Side Mod List
+## Server-Side Mod List
 - [Essential Commands](https://github.com/John-Paul-R/Essential-Commands/) - Provides essential server commands and utilities.
 - [CT's Overhauled Villages](https://modrinth.com/mod/ct-overhaul-village) - Overhauls and improves village generation.
 - [LuckPerms](https://modrinth.com/plugin/luckperms) - A powerful permissions management plugin.
