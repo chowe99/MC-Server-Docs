@@ -221,15 +221,15 @@
         <ul>
           <li><strong>Fast Swim</strong>: Grants the player a dolphin Grace effect.</li>
           <li><strong>Leaping</strong>: Boosts the player.</li>
-          <li><strong>Oversize</strong>: Increase entity size</li>
-          <li><strong>Dwarfed</strong>: Decrease enity size</li>
+          <li><strong>Oversize</strong>: Increase entity size.</li>
+          <li><strong>Dwarfed</strong>: Decrease entity size.</li>
         </ul>
       </li>
       <li>
         <strong>Boots</strong>:
         <ul>
           <li><strong>Step Assist</strong>: Allows you to walk up blocks more easily.</li>
-          <li><strong>SkyWalk</strong>: Allows you to fly if there is a 4 blocks gap below your feet. To desced just crouch.</li>
+          <li><strong>SkyWalk</strong>: Allows you to fly if there is a 4 blocks gap below your feet. To descend just crouch.</li>
           <li><strong>Lava Walker</strong>: Allows the player to walk on lava.</li>
           <li><strong>Agility</strong>: Increases player speed.</li>
         </ul>
@@ -247,15 +247,15 @@
           <li><strong>XpBoost</strong>: Gain additional experience from killing mobs.</li>
           <li><strong>Life Steal</strong>: Drains health from the target and transfers it to the player.</li>
           <li><strong>Poison Aspect</strong>: Poisons the mob upon hitting it.</li>
-          <li><strong>Fear</strong>: When you hit a creeper, increase delays their explosion by 12.5 seconds.</li>
-          <li><strong>Pull</strong> Allows you to retrieve a mob egg with a small probability when you kill a monster.</li>
+          <li><strong>Fear</strong>: When you hit a creeper, it delays their explosion by 12.5 seconds.</li>
+          <li><strong>Pull</strong>: Allows you to retrieve a mob egg with a small probability when you kill a monster.</li>
         </ul>
       </li>
       <li>
         <strong>Mace</strong>:
         <ul>
-          <li><strong>Striker</strong>: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.</li>
-          <li><strong>Wind Propulsion</strong> When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".</li>
+          <li><strong>Striker</strong>: With maces, you have a small chance to summon thunder. If the weather is stormy, the thunder will strike the mob at each hit and work also on lighting rod. Also you are immune to thunder damage.</li>
+          <li><strong>Wind Propulsion</strong>: When you strike your mace on the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".</li>
         </ul>
       </li>
       <li>
@@ -281,13 +281,13 @@
       <li>
         <strong>Hoe</strong>:
         <ul>
-          <li><strong>Scyther</strong>: Allows you to transform dirt in farmland in x by z surface depending enchantment levels</li>
+          <li><strong>Scyther</strong>: Allows you to transform dirt in farmland in x by z surface depending on enchantment levels.</li>
         </ul>
       </li>
       <li>
         <strong>Bow</strong>:
         <ul>
-          <li><strong>Explosive Arrow</strong>: When arrow hit a block, create an explosion, the entity take damage.</li>
+          <li><strong>Explosive Arrow</strong>: When arrows hit blocks, they create an explosion, and entities take damage.</li>
           <li><strong>Accuracy Shot</strong>: Arrows fly straight.</li>
           <li><strong>Breezing Arrow</strong>: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.</li>
         </ul>
@@ -295,7 +295,7 @@
     </ul>
   </details>
 </li>
-<li><b>Better Than Mending:</b> crouch and right-click to use XP to repair a tool/weapon with mending</li>
+<li><b>Better Than Mending</b>: Crouch and right-click to use XP to repair a tool/weapon with mending.</li>
 
 ## Optional Installs
 ### Mods
