@@ -52,7 +52,7 @@
     <li><code>/warp delete &lt;warp-name&gt;</code></li>
     <li><code>/warp list</code></li>
   </ul>
-  <p>Want to teleport to where you died? Enable <code>allow_back_on_death</code> in the <a href="config-docs">config</a>.</p>
+  <p>Want to teleport to where you died? Enable <code>allow_back_on_death</code> in the <a href="https://github.com/John-Paul-R/Essential-Commands/wiki/Config-Documentation">config</a>.</p>
   <h5>Nickname</h5>
   <ul>
     <li><code>/nickname set &lt;nickname&gt;</code></li>
