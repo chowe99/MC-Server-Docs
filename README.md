@@ -28,69 +28,69 @@
   <p>See the <a href="https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions">full List of Commands &amp; Permissions</a>.</p>
   <h5>Spawn</h5>
   <ul>
-    <li>/spawn</li>
-    <li>/spawn set</li>
+    <li><code>/spawn</code></li>
+    <li><code>/spawn set</code></li>
   </ul>
   <h5>Teleport requests</h5>
   <ul>
-    <li>/tpa &lt;target-player&gt;</li>
-    <li>/tpahere &lt;target-player&gt;</li>
-    <li>/tpaccept &lt;target-player&gt;</li>
-    <li>/tpdeny &lt;target-player&gt;</li>
+    <li><code>/tpa &lt;target-player&gt;</code></li>
+    <li><code>/tpahere &lt;target-player&gt;</code></li>
+    <li><code>/tpaccept &lt;target-player&gt;</code></li>
+    <li><code>/tpdeny &lt;target-player&gt;</code></li>
   </ul>
   <h5>Player Homes</h5>
   <ul>
-    <li>/home set &lt;home-name&gt;</li>
-    <li>/home tp &lt;home-name&gt;</li>
-    <li>/home delete &lt;home-name&gt;</li>
-    <li>/home list</li>
+    <li><code>/home set &lt;home-name&gt;</code></li>
+    <li><code>/home tp &lt;home-name&gt;</code></li>
+    <li><code>/home delete &lt;home-name&gt;</code></li>
+    <li><code>/home list</code></li>
   </ul>
   <h5>Warps</h5>
   <ul>
-    <li>/warp set &lt;warp-name&gt;</li>
-    <li>/warp tp &lt;warp-name&gt;</li>
-    <li>/warp delete &lt;warp-name&gt;</li>
-    <li>/warp list</li>
+    <li><code>/warp set &lt;warp-name&gt;</code></li>
+    <li><code>/warp tp &lt;warp-name&gt;</code></li>
+    <li><code>/warp delete &lt;warp-name&gt;</code></li>
+    <li><code>/warp list</code></li>
   </ul>
   <h5>Back</h5>
   <ul>
-    <li>/back</li>
+    <li><code>/back</code></li>
   </ul>
   <p>Want to teleport to where you died? Enable <code>allow_back_on_death</code> in the <a href="config-docs">config</a>.</p>
   <h5>Nickname</h5>
   <ul>
-    <li>/nickname set &lt;nickname&gt;</li>
-    <li>/nickname clear</li>
-    <li>/nickname reveal &lt;nickname&gt;</li>
+    <li><code>/nickname set &lt;nickname&gt;</code></li>
+    <li><code>/nickname clear</code></li>
+    <li><code>/nickname reveal &lt;nickname&gt;</code></li>
   </ul>
   <h5>Random Teleport (/wild equivalent)</h5>
   <ul>
-    <li>/randomteleport</li>
-    <li>/rtp</li>
+    <li><code>/randomteleport</code></li>
+    <li><code>/rtp</code></li>
   </ul>
   <h5>Workbench</h5>
   <ul>
-    <li>/workbench</li>
-    <li>/anvil</li>
-    <li>/enderchest</li>
-    <li>/stonecutter</li>
-    <li>/grindstone</li>
-    <li>/wastebin</li>
+    <li><code>/workbench</code></li>
+    <li><code>/anvil</code></li>
+    <li><code>/enderchest</code></li>
+    <li><code>/stonecutter</code></li>
+    <li><code>/grindstone</code></li>
+    <li><code>/wastebin</code></li>
   </ul>
   <h5>Kitchen sink</h5>
   <ul>
-    <li>/afk</li>
-    <li>/fly</li>
-    <li>/fly &lt;target-player&gt;</li>
-    <li>/invuln</li>
-    <li>/invuln &lt;target-player&gt;</li>
-    <li>/top</li>
-    <li>/day</li>
-    <li>/gametime</li>
+    <li><code>/afk</code></li>
+    <li><code>/fly</code></li>
+    <li><code>/fly &lt;target-player&gt;</code></li>
+    <li><code>/invuln</code></li>
+    <li><code>/invuln &lt;target-player&gt;</code></li>
+    <li><code>/top</code></li>
+    <li><code>/day</code></li>
+    <li><code>/gametime</code></li>
   </ul>
   <h5>Config</h5>
   <ul>
-    <li>/essentialcommands config reload</li>
+    <li><code>/essentialcommands config reload</code></li>
   </ul>
 </details>
 <details>
