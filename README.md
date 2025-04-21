@@ -383,3 +383,4 @@ Nil
 - [Neo Enchant+](https://modrinth.com/datapack/neoenchant)
 - [AFK Sit](https://modrinth.com/datapack/afk-sit)
 - [Better Than Mending](https://modrinth.com/mod/better-than-mending)
+- [Tom's Simple Storage](https://modrinth.com/mod/toms-storage) - Allows for the unifying of chests and accessing them through a single interface.
