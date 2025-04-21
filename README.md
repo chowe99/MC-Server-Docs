@@ -15,7 +15,7 @@
   <li>Install prerequisite client-side mods to your Fabulously Optimized instance in Modrinth:
     <ul>
       <li><a href="https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric">Easy Magic</a></li>
-      <li><a href="https://modrinth.com/mod/toms-storage?version=1.21.5&loader=fabric#download">Tom's Simple Storage</a> - short guide <a href="https://youtu.be/nW5ElcWiC3c">here</a></li>
+      <li><a href="https://modrinth.com/mod/toms-storage?version=1.21.5&loader=fabric#download">Tom's Simple Storage</a> - short guide <a href="https://youtu.be/nW5ElcWiC3c">here</a>, recipes <a href="https://github.com/tom5454/Toms-Storage/tree/master/NeoForge/src/platform-shared/resources/data/toms_storage/recipe">here</a>.</li>
     </ul>
   </li>
 </ol>
