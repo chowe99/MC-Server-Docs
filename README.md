@@ -188,7 +188,8 @@
   <h5>Additional permissions</h5>
   <p><code>htm.admin</code>: Allows unrestricted access to containers and other managerial permissions</p>
 </details>
-<p><b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.</p>
+
+<li><b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.</li>
   <details>
     <summary><b>Neo Enchant+ Enchantments List</b></summary>
     <h4>Neo Enchantments List</h4>
@@ -294,6 +295,7 @@
     </ul>
   </details>
 </li>
+<li><b>Better Than Mending:</b> crouch and right-click to use XP to repair a tool/weapon with mending</li>
 
 ## Optional Installs
 ### Mods
@@ -378,3 +380,5 @@ Nil
 - [Homing XP](https://modrinth.com/datapack/simple-homing-xp)
 - [Mine Treasure](https://modrinth.com/datapack/mine-treasure)
 - [Neo Enchant+](https://modrinth.com/datapack/neoenchant)
+- [AFK Sit](https://modrinth.com/datapack/afk-sit)
+- [Better Than Mending](https://modrinth.com/mod/better-than-mending)
