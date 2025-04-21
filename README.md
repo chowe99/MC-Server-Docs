@@ -91,6 +91,7 @@
 </details>
 <details>
   <summary><b>Get Off My Lawn Recipes and Augments</b></summary>
+  <p>For more info, see the <a href="https://github.com/Draylar/get-off-my-lawn/blob/1.17/README.md">GitHub README</a>.
   <h4>Claim Anchors</h4>
   <h5>Makeshift Claim Anchor</h5>
   <img src="recipes/makeshift_claim_anchor.png" alt="Makeshift Claim Anchor Recipe"/>
