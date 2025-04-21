@@ -89,6 +89,7 @@
     <li><code>/essentialcommands config reload</code></li>
   </ul>
 </details>
+
 <details>
   <summary><b>Get Off My Lawn Recipes and Augments</b></summary>
   <p>For more info, see the <a href="https://github.com/Draylar/get-off-my-lawn/blob/1.17/README.md">GitHub README</a>.
@@ -142,6 +143,7 @@
   <h5>Goggles of (Claim) Revealing</h5>
   <img src="recipes/goggles.png" alt="Goggles Recipe"/>
 </details>
+
 <details>
   <summary><b>Hey That's Mine Commands and Config</b></summary>
   <h4>Using HTM</h4>
@@ -186,112 +188,114 @@
   <p><code>htm.admin</code>: Allows unrestricted access to containers and other managerial permissions</p>
 </details>
 
-<li><b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.</li>
-  <details>
-    <summary><b>Neo Enchant+ Enchantments List</b></summary>
-    <h4>Neo Enchantments List</h4>
-    <ul>
-      <li>
-        <strong>Armor</strong>:
-        <ul>
-          <li><strong>Fury</strong>: Decreases armor in percent and grants armor penetration and increased damage percentage on your hits.</li>
-          <li><strong>Life+</strong>: Gives the player extra hearts.</li>
-          <li><strong>Venom Protection</strong>: Provides protection against negative effects.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Helmet</strong>:
-        <ul>
-          <li><strong>Bright Vision</strong>: Gives night vision to the player.</li>
-          <li><strong>Auto-Feed</strong>: Automatically feeds you every minute.</li>
-          <li><strong>Voidless</strong>: If you fall into the void, you briefly gain a levitation effect.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Chestplate</strong>:
-        <ul>
-          <li><strong>Builder Arms</strong>: Allows you to place and break blocks from a longer distance.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Leggings</strong>:
-        <ul>
-          <li><strong>Fast Swim</strong>: Grants the player a dolphin Grace effect.</li>
-          <li><strong>Leaping</strong>: Boosts the player.</li>
-          <li><strong>Oversize</strong>: Increase entity size.</li>
-          <li><strong>Dwarfed</strong>: Decrease entity size.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Boots</strong>:
-        <ul>
-          <li><strong>Step Assist</strong>: Allows you to walk up blocks more easily.</li>
-          <li><strong>SkyWalk</strong>: Allows you to fly if there is a 4 blocks gap below your feet. To descend just crouch.</li>
-          <li><strong>Lava Walker</strong>: Allows the player to walk on lava.</li>
-          <li><strong>Agility</strong>: Increases player speed.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Elytra</strong>:
-        <ul>
-          <li><strong>Armored</strong>: For elytra, reduce the damage taken.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Sword</strong>:
-        <ul>
-          <li><strong>Reach</strong>: Increase the range of your attack.</li>
-          <li><strong>XpBoost</strong>: Gain additional experience from killing mobs.</li>
-          <li><strong>Life Steal</strong>: Drains health from the target and transfers it to the player.</li>
-          <li><strong>Poison Aspect</strong>: Poisons the mob upon hitting it.</li>
-          <li><strong>Fear</strong>: When you hit a creeper, it delays their explosion by 12.5 seconds.</li>
-          <li><strong>Pull</strong>: Allows you to retrieve a mob egg with a small probability when you kill a monster.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Mace</strong>:
-        <ul>
-          <li><strong>Striker</strong>: With maces, you have a small chance to summon thunder. If the weather is stormy, the thunder will strike the mob at each hit and work also on lighting rod. Also you are immune to thunder damage.</li>
-          <li><strong>Wind Propulsion</strong>: When you strike your mace on the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Tools</strong>:
-        <ul>
-          <li><strong>Auto-Smelt</strong>: Automatically smelts items.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Axe</strong>:
-        <ul>
-          <li><strong>Timber</strong>: Cut down a tree with one strike.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Pickaxe</strong>:
-        <ul>
-          <li><strong>Bedrock Breaker</strong>: Allows you to break bedrock, but consumes 200 durability per block.</li>
-          <li><strong>VeinMiner</strong>: If you break a mineral block, all surrounding minerals also break.</li>
-          <li><strong>Spawner Touch</strong>: Allows your pickaxe to retrieve spawners.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Hoe</strong>:
-        <ul>
-          <li><strong>Scyther</strong>: Allows you to transform dirt in farmland in x by z surface depending on enchantment levels.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Bow</strong>:
-        <ul>
-          <li><strong>Explosive Arrow</strong>: When arrows hit blocks, they create an explosion, and entities take damage.</li>
-          <li><strong>Accuracy Shot</strong>: Arrows fly straight.</li>
-          <li><strong>Breezing Arrow</strong>: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.</li>
-        </ul>
-      </li>
-    </ul>
-  </details>
+<details>
+  <summary><b>Neo Enchant+ Enchantments List</b></summary>
+  <h4>Neo Enchantments List</h4>
+  <ul>
+    <li>
+      <strong>Armor</strong>:
+      <ul>
+        <li><strong>Fury</strong>: Decreases armor in percent and grants armor penetration and increased damage percentage on your hits.</li>
+        <li><strong>Life+</strong>: Gives the player extra hearts.</li>
+        <li><strong>Venom Protection</strong>: Provides protection against negative effects.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Helmet</strong>:
+      <ul>
+        <li><strong>Bright Vision</strong>: Gives night vision to the player.</li>
+        <li><strong>Auto-Feed</strong>: Automatically feeds you every minute.</li>
+        <li><strong>Voidless</strong>: If you fall into the void, you briefly gain a levitation effect.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Chestplate</strong>:
+      <ul>
+        <li><strong>Builder Arms</strong>: Allows you to place and break blocks from a longer distance.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Leggings</strong>:
+      <ul>
+        <li><strong>Fast Swim</strong>: Grants the player a dolphin Grace effect.</li>
+        <li><strong>Leaping</strong>: Boosts the player.</li>
+        <li><strong>Oversize</strong>: Increase entity size.</li>
+        <li><strong>Dwarfed</strong>: Decrease entity size.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Boots</strong>:
+      <ul>
+        <li><strong>Step Assist</strong>: Allows you to walk up blocks more easily.</li>
+        <li><strong>SkyWalk</strong>: Allows you to fly if there is a 4 blocks gap below your feet. To descend just crouch.</li>
+        <li><strong>Lava Walker</strong>: Allows the player to walk on lava.</li>
+        <li><strong>Agility</strong>: Increases player speed.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Elytra</strong>:
+      <ul>
+        <li><strong>Armored</strong>: For elytra, reduce the damage taken.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Sword</strong>:
+      <ul>
+        <li><strong>Reach</strong>: Increase the range of your attack.</li>
+        <li><strong>XpBoost</strong>: Gain additional experience from killing mobs.</li>
+        <li><strong>Life Steal</strong>: Drains health from the target and transfers it to the player.</li>
+        <li><strong>Poison Aspect</strong>: Poisons the mob upon hitting it.</li>
+        <li><strong>Fear</strong>: When you hit a creeper, it delays their explosion by 12.5 seconds.</li>
+        <li><strong>Pull</strong>: Allows you to retrieve a mob egg with a small probability when you kill a monster.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Mace</strong>:
+      <ul>
+        <li><strong>Striker</strong>: With maces, you have a small chance to summon thunder. If the weather is stormy, the thunder will strike the mob at each hit and work also on lighting rod. Also you are immune to thunder damage.</li>
+        <li><strong>Wind Propulsion</strong>: When you strike your mace on the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Tools</strong>:
+      <ul>
+        <li><strong>Auto-Smelt</strong>: Automatically smelts items.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Axe</strong>:
+      <ul>
+        <li><strong>Timber</strong>: Cut down a tree with one strike.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Pickaxe</strong>:
+      <ul>
+        <li><strong>Bedrock Breaker</strong>: Allows you to break bedrock, but consumes 200 durability per block.</li>
+        <li><strong>VeinMiner</strong>: If you break a mineral block, all surrounding minerals also break.</li>
+        <li><strong>Spawner Touch</strong>: Allows your pickaxe to retrieve spawners.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Hoe</strong>:
+      <ul>
+        <li><strong>Scyther</strong>: Allows you to transform dirt in farmland in x by z surface depending on enchantment levels.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Bow</strong>:
+      <ul>
+        <li><strong>Explosive Arrow</strong>: When arrows hit blocks, they create an explosion, and entities take damage.</li>
+        <li><strong>Accuracy Shot</strong>: Arrows fly straight.</li>
+        <li><strong>Breezing Arrow</strong>: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.</li>
+      </ul>
+    </li>
+  </ul>
+</details>
 </li>
+
+<li><b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.</li>
+
 <li><b>Better Than Mending</b>: Crouch and right-click to use XP to repair a tool/weapon with mending.</li>
 
 ## Optional Installs
