@@ -190,7 +190,7 @@
 
 <details>
   <summary><b>Neo Enchant+ Enchantments List</b></summary>
-  <h4>Neo Enchantments List</h4>
+  <p>For more info, see the <a href="https://github.com/Hardel-DW/NeoEnchant/blob/main/README.md">GitHub README</a>.
   <ul>
     <li>
       <strong>Armor</strong>:
