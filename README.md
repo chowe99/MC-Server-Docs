@@ -366,9 +366,10 @@ Nil
 - [Lithium](https://modrinth.com/mod/lithium) - General server-side optimization mod.
 - [Lithostitched](https://modrinth.com/mod/lithostitched) - Optimizes chunk loading.
 - [Nether Portal Fix](https://modrinth.com/mod/netherportalfix) - Fixes issues with Nether portal linking.
-- [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
+- [Tom's Simple Storage](https://modrinth.com/mod/toms-storage) - Allows for the unifying of chests and accessing them through a single interface.
 - [Spark](https://modrinth.com/mod/spark) - A performance profiling tool.
 - [Towns and Towers](https://modrinth.com/mod/towns-and-towers) - Generates new and improved structures.
+- [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
 - [Detect AFK](https://modrinth.com/datapack/detect-afk)
 - [AFK sleep](https://modrinth.com/datapack/afk-sleep)
 - [Forge conflict API Port](https://modrinth.com/mod/forge-config-api-port)
@@ -383,4 +384,3 @@ Nil
 - [Neo Enchant+](https://modrinth.com/datapack/neoenchant)
 - [AFK Sit](https://modrinth.com/datapack/afk-sit)
 - [Better Than Mending](https://modrinth.com/mod/better-than-mending)
-- [Tom's Simple Storage](https://modrinth.com/mod/toms-storage) - Allows for the unifying of chests and accessing them through a single interface.
