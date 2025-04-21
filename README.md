@@ -15,7 +15,7 @@
   <li>Install prerequisite client-side mods to your Fabulously Optimized instance in Modrinth:
     <ul>
       <li><a href="https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric">Easy Magic</a></li>
-      <li><a href="https://modrinth.com/mod/toms-storage?version=1.21.5&loader=fabric#download">Tom's Simple Storage</a> - short guide <a href="https://youtu.be/nW5ElcWiC3c">here</a></li>
+      <li><a href="https://modrinth.com/mod/toms-storage?version=1.21.5&loader=fabric#download">Tom's Simple Storage</a> - short guide <a href="https://youtu.be/nW5ElcWiC3c">here</a>, recipes <a href="https://github.com/tom5454/Toms-Storage/tree/master/NeoForge/src/platform-shared/resources/data/toms_storage/recipe">here</a>.</li>
     </ul>
   </li>
 </ol>
@@ -28,73 +28,71 @@
   <p>See the <a href="https://github.com/John-Paul-R/Essential-Commands/wiki/List-of-Commands-&-Permissions">full List of Commands &amp; Permissions</a>.</p>
   <h5>Spawn</h5>
   <ul>
-    <li>/spawn</li>
-    <li>/spawn set</li>
+    <li><code>/spawn</code></li>
+    <li><code>/spawn set</code></li>
   </ul>
   <h5>Teleport requests</h5>
   <ul>
-    <li>/tpa &lt;target-player&gt;</li>
-    <li>/tpahere &lt;target-player&gt;</li>
-    <li>/tpaccept &lt;target-player&gt;</li>
-    <li>/tpdeny &lt;target-player&gt;</li>
+    <li><code>/tpa &lt;target-player&gt;</code></li>
+    <li><code>/tpahere &lt;target-player&gt;</code></li>
+    <li><code>/tpaccept &lt;target-player&gt;</code></li>
+    <li><code>/tpdeny &lt;target-player&gt;</code></li>
   </ul>
   <h5>Player Homes</h5>
   <ul>
-    <li>/home set &lt;home-name&gt;</li>
-    <li>/home tp &lt;home-name&gt;</li>
-    <li>/home delete &lt;home-name&gt;</li>
-    <li>/home list</li>
+    <li><code>/home set &lt;home-name&gt;</code></li>
+    <li><code>/home tp &lt;home-name&gt;</code></li>
+    <li><code>/home delete &lt;home-name&gt;</code></li>
+    <li><code>/home list</code></li>
   </ul>
   <h5>Warps</h5>
   <ul>
-    <li>/warp set &lt;warp-name&gt;</li>
-    <li>/warp tp &lt;warp-name&gt;</li>
-    <li>/warp delete &lt;warp-name&gt;</li>
-    <li>/warp list</li>
+    <li><code>/warp set &lt;warp-name&gt;</code></li>
+    <li><code>/warp tp &lt;warp-name&gt;</code></li>
+    <li><code>/warp delete &lt;warp-name&gt;</code></li>
+    <li><code>/warp list</code></li>
   </ul>
-  <h5>Back</h5>
-  <ul>
-    <li>/back</li>
-  </ul>
-  <p>Want to teleport to where you died? Enable <code>allow_back_on_death</code> in the <a href="config-docs">config</a>.</p>
+  <p>Want to teleport to where you died? Enable <code>allow_back_on_death</code> in the <a href="https://github.com/John-Paul-R/Essential-Commands/wiki/Config-Documentation">config</a>.</p>
   <h5>Nickname</h5>
   <ul>
-    <li>/nickname set &lt;nickname&gt;</li>
-    <li>/nickname clear</li>
-    <li>/nickname reveal &lt;nickname&gt;</li>
+    <li><code>/nickname set &lt;nickname&gt;</code></li>
+    <li><code>/nickname clear</code></li>
+    <li><code>/nickname reveal &lt;nickname&gt;</code></li>
   </ul>
   <h5>Random Teleport (/wild equivalent)</h5>
   <ul>
-    <li>/randomteleport</li>
-    <li>/rtp</li>
+    <li><code>/randomteleport</code></li>
+    <li><code>/rtp</code></li>
   </ul>
   <h5>Workbench</h5>
   <ul>
-    <li>/workbench</li>
-    <li>/anvil</li>
-    <li>/enderchest</li>
-    <li>/stonecutter</li>
-    <li>/grindstone</li>
-    <li>/wastebin</li>
+    <li><code>/workbench</code></li>
+    <li><code>/anvil</code></li>
+    <li><code>/enderchest</code></li>
+    <li><code>/stonecutter</code></li>
+    <li><code>/grindstone</code></li>
+    <li><code>/wastebin</code></li>
   </ul>
   <h5>Kitchen sink</h5>
   <ul>
-    <li>/afk</li>
-    <li>/fly</li>
-    <li>/fly &lt;target-player&gt;</li>
-    <li>/invuln</li>
-    <li>/invuln &lt;target-player&gt;</li>
-    <li>/top</li>
-    <li>/day</li>
-    <li>/gametime</li>
+    <li><code>/afk</code></li>
+    <li><code>/fly</code></li>
+    <li><code>/fly &lt;target-player&gt;</code></li>
+    <li><code>/invuln</code></li>
+    <li><code>/invuln &lt;target-player&gt;</code></li>
+    <li><code>/top</code></li>
+    <li><code>/day</code></li>
+    <li><code>/gametime</code></li>
   </ul>
   <h5>Config</h5>
   <ul>
-    <li>/essentialcommands config reload</li>
+    <li><code>/essentialcommands config reload</code></li>
   </ul>
 </details>
+
 <details>
   <summary><b>Get Off My Lawn Recipes and Augments</b></summary>
+  <p>For more info, see the <a href="https://github.com/Draylar/get-off-my-lawn/blob/1.17/README.md">GitHub README</a>.
   <h4>Claim Anchors</h4>
   <h5>Makeshift Claim Anchor</h5>
   <img src="recipes/makeshift_claim_anchor.png" alt="Makeshift Claim Anchor Recipe"/>
@@ -145,6 +143,7 @@
   <h5>Goggles of (Claim) Revealing</h5>
   <img src="recipes/goggles.png" alt="Goggles Recipe"/>
 </details>
+
 <details>
   <summary><b>Hey That's Mine Commands and Config</b></summary>
   <h4>Using HTM</h4>
@@ -189,113 +188,115 @@
   <p><code>htm.admin</code>: Allows unrestricted access to containers and other managerial permissions</p>
 </details>
 
-<li><b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.</li>
-  <details>
-    <summary><b>Neo Enchant+ Enchantments List</b></summary>
-    <h4>Neo Enchantments List</h4>
-    <ul>
-      <li>
-        <strong>Armor</strong>:
-        <ul>
-          <li><strong>Fury</strong>: Decreases armor in percent and grants armor penetration and increased damage percentage on your hits.</li>
-          <li><strong>Life+</strong>: Gives the player extra hearts.</li>
-          <li><strong>Venom Protection</strong>: Provides protection against negative effects.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Helmet</strong>:
-        <ul>
-          <li><strong>Bright Vision</strong>: Gives night vision to the player.</li>
-          <li><strong>Auto-Feed</strong>: Automatically feeds you every minute.</li>
-          <li><strong>Voidless</strong>: If you fall into the void, you briefly gain a levitation effect.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Chestplate</strong>:
-        <ul>
-          <li><strong>Builder Arms</strong>: Allows you to place and break blocks from a longer distance.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Leggings</strong>:
-        <ul>
-          <li><strong>Fast Swim</strong>: Grants the player a dolphin Grace effect.</li>
-          <li><strong>Leaping</strong>: Boosts the player.</li>
-          <li><strong>Oversize</strong>: Increase entity size</li>
-          <li><strong>Dwarfed</strong>: Decrease enity size</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Boots</strong>:
-        <ul>
-          <li><strong>Step Assist</strong>: Allows you to walk up blocks more easily.</li>
-          <li><strong>SkyWalk</strong>: Allows you to fly if there is a 4 blocks gap below your feet. To desced just crouch.</li>
-          <li><strong>Lava Walker</strong>: Allows the player to walk on lava.</li>
-          <li><strong>Agility</strong>: Increases player speed.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Elytra</strong>:
-        <ul>
-          <li><strong>Armored</strong>: For elytra, reduce the damage taken.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Sword</strong>:
-        <ul>
-          <li><strong>Reach</strong>: Increase the range of your attack.</li>
-          <li><strong>XpBoost</strong>: Gain additional experience from killing mobs.</li>
-          <li><strong>Life Steal</strong>: Drains health from the target and transfers it to the player.</li>
-          <li><strong>Poison Aspect</strong>: Poisons the mob upon hitting it.</li>
-          <li><strong>Fear</strong>: When you hit a creeper, increase delays their explosion by 12.5 seconds.</li>
-          <li><strong>Pull</strong> Allows you to retrieve a mob egg with a small probability when you kill a monster.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Mace</strong>:
-        <ul>
-          <li><strong>Striker</strong>: On mace, have a small chance to call the thunder, if the weather is stormy, the thunder will strike the mob at each hit and work also on lighting_rod. Also you are immune to damage thunder.</li>
-          <li><strong>Wind Propulsion</strong> When you striking with your mace the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Tools</strong>:
-        <ul>
-          <li><strong>Auto-Smelt</strong>: Automatically smelts items.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Axe</strong>:
-        <ul>
-          <li><strong>Timber</strong>: Cut down a tree with one strike.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Pickaxe</strong>:
-        <ul>
-          <li><strong>Bedrock Breaker</strong>: Allows you to break bedrock, but consumes 200 durability per block.</li>
-          <li><strong>VeinMiner</strong>: If you break a mineral block, all surrounding minerals also break.</li>
-          <li><strong>Spawner Touch</strong>: Allows your pickaxe to retrieve spawners.</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Hoe</strong>:
-        <ul>
-          <li><strong>Scyther</strong>: Allows you to transform dirt in farmland in x by z surface depending enchantment levels</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Bow</strong>:
-        <ul>
-          <li><strong>Explosive Arrow</strong>: When arrow hit a block, create an explosion, the entity take damage.</li>
-          <li><strong>Accuracy Shot</strong>: Arrows fly straight.</li>
-          <li><strong>Breezing Arrow</strong>: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.</li>
-        </ul>
-      </li>
-    </ul>
-  </details>
+<details>
+  <summary><b>Neo Enchant+ Enchantments List</b></summary>
+  <p>For more info, see the <a href="https://github.com/Hardel-DW/NeoEnchant/blob/main/README.md">GitHub README</a>.
+  <ul>
+    <li>
+      <strong>Armor</strong>:
+      <ul>
+        <li><strong>Fury</strong>: Decreases armor in percent and grants armor penetration and increased damage percentage on your hits.</li>
+        <li><strong>Life+</strong>: Gives the player extra hearts.</li>
+        <li><strong>Venom Protection</strong>: Provides protection against negative effects.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Helmet</strong>:
+      <ul>
+        <li><strong>Bright Vision</strong>: Gives night vision to the player.</li>
+        <li><strong>Auto-Feed</strong>: Automatically feeds you every minute.</li>
+        <li><strong>Voidless</strong>: If you fall into the void, you briefly gain a levitation effect.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Chestplate</strong>:
+      <ul>
+        <li><strong>Builder Arms</strong>: Allows you to place and break blocks from a longer distance.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Leggings</strong>:
+      <ul>
+        <li><strong>Fast Swim</strong>: Grants the player a dolphin Grace effect.</li>
+        <li><strong>Leaping</strong>: Boosts the player.</li>
+        <li><strong>Oversize</strong>: Increase entity size.</li>
+        <li><strong>Dwarfed</strong>: Decrease entity size.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Boots</strong>:
+      <ul>
+        <li><strong>Step Assist</strong>: Allows you to walk up blocks more easily.</li>
+        <li><strong>SkyWalk</strong>: Allows you to fly if there is a 4 blocks gap below your feet. To descend just crouch.</li>
+        <li><strong>Lava Walker</strong>: Allows the player to walk on lava.</li>
+        <li><strong>Agility</strong>: Increases player speed.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Elytra</strong>:
+      <ul>
+        <li><strong>Armored</strong>: For elytra, reduce the damage taken.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Sword</strong>:
+      <ul>
+        <li><strong>Reach</strong>: Increase the range of your attack.</li>
+        <li><strong>XpBoost</strong>: Gain additional experience from killing mobs.</li>
+        <li><strong>Life Steal</strong>: Drains health from the target and transfers it to the player.</li>
+        <li><strong>Poison Aspect</strong>: Poisons the mob upon hitting it.</li>
+        <li><strong>Fear</strong>: When you hit a creeper, it delays their explosion by 12.5 seconds.</li>
+        <li><strong>Pull</strong>: Allows you to retrieve a mob egg with a small probability when you kill a monster.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Mace</strong>:
+      <ul>
+        <li><strong>Striker</strong>: With maces, you have a small chance to summon thunder. If the weather is stormy, the thunder will strike the mob at each hit and work also on lighting rod. Also you are immune to thunder damage.</li>
+        <li><strong>Wind Propulsion</strong>: When you strike your mace on the ground, you cause an explosion that sends you into the air, designed to be used in combination with "Wind Burst".</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Tools</strong>:
+      <ul>
+        <li><strong>Auto-Smelt</strong>: Automatically smelts items.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Axe</strong>:
+      <ul>
+        <li><strong>Timber</strong>: Cut down a tree with one strike.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Pickaxe</strong>:
+      <ul>
+        <li><strong>Bedrock Breaker</strong>: Allows you to break bedrock, but consumes 200 durability per block.</li>
+        <li><strong>VeinMiner</strong>: If you break a mineral block, all surrounding minerals also break.</li>
+        <li><strong>Spawner Touch</strong>: Allows your pickaxe to retrieve spawners.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Hoe</strong>:
+      <ul>
+        <li><strong>Scyther</strong>: Allows you to transform dirt in farmland in x by z surface depending on enchantment levels.</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Bow</strong>:
+      <ul>
+        <li><strong>Explosive Arrow</strong>: When arrows hit blocks, they create an explosion, and entities take damage.</li>
+        <li><strong>Accuracy Shot</strong>: Arrows fly straight.</li>
+        <li><strong>Breezing Arrow</strong>: (Bow and Crossbow) Causes a repulsion effect and sends the hit target into the air. If arrows miss, it causes a repulsion effect on the ground.</li>
+      </ul>
+    </li>
+  </ul>
+</details>
 </li>
-<li><b>Better Than Mending:</b> crouch and right-click to use XP to repair a tool/weapon with mending</li>
+
+<li><b>InventorySorter</b> has a client-side mod available <a href="https://modrinth.com/mod/inventory-sorting?version=1.21.5">here</a>, but if you don't want it you can sort chests by double-clicking empty tiles.</li>
+
+<li><b>Better Than Mending</b>: Crouch and right-click to use XP to repair a tool/weapon with mending.</li>
 
 ## Optional Installs
 ### Mods
@@ -365,9 +366,10 @@ Nil
 - [Lithium](https://modrinth.com/mod/lithium) - General server-side optimization mod.
 - [Lithostitched](https://modrinth.com/mod/lithostitched) - Optimizes chunk loading.
 - [Nether Portal Fix](https://modrinth.com/mod/netherportalfix) - Fixes issues with Nether portal linking.
-- [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
+- [Tom's Simple Storage](https://modrinth.com/mod/toms-storage) - Allows for the unifying of chests and accessing them through a single interface.
 - [Spark](https://modrinth.com/mod/spark) - A performance profiling tool.
 - [Towns and Towers](https://modrinth.com/mod/towns-and-towers) - Generates new and improved structures.
+- [Dungeons and Taverns](https://modrinth.com/datapack/dungeons-and-taverns)
 - [Detect AFK](https://modrinth.com/datapack/detect-afk)
 - [AFK sleep](https://modrinth.com/datapack/afk-sleep)
 - [Forge conflict API Port](https://modrinth.com/mod/forge-config-api-port)
