@@ -20,6 +20,30 @@
   </li>
 </ol>
 
+
+<ol>
+    <details>
+      - with 😊 emojis
+    - Like this
+
+    Or even just normal text
+
+    </details>
+
+    <details><summary>Cool Dropdown #2</summary>
+
+    More cool text hiding in my dropdown
+
+    </details>
+
+    <details><summary>Cool Dropdown #3</summary>
+
+    Easter egg! :egg::egg::egg:
+
+    </details>
+</ol>
+
+
 ## Server Commands/Info
 <details>
   <summary><b>EssentialCommands - Command List</b></summary>
