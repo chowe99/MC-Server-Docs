@@ -52,10 +52,6 @@
     <li><code>/warp delete &lt;warp-name&gt;</code></li>
     <li><code>/warp list</code></li>
   </ul>
-  <h5>Back</h5>
-  <ul>
-    <li><code>/back</code></li>
-  </ul>
   <p>Want to teleport to where you died? Enable <code>allow_back_on_death</code> in the <a href="config-docs">config</a>.</p>
   <h5>Nickname</h5>
   <ul>
