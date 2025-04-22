@@ -327,17 +327,16 @@
 
 <details>
   <summary><b>Tom's Simple Storage Tips</b></summary>
-  <h4>Resources</h4>
+  <h5>Resources</h5>
   <p>
-    - Short YT guide <a href="https://youtu.be/nW5ElcWiC3c" target="_blank">here</a><br>
+    - Short YT guide <a href="https://youtu.be/nW5ElcWiC3c" target="_blank">here</a>.<br>
     - Recipes <a href="https://github.com/tom5454/Toms-Storage/tree/master/NeoForge/src/platform-shared/resources/data/toms_storage/recipe" target="_blank">here</a>.
   </p>
 
-  <h4>Rules</h4>
-  <p><strong>Rules</strong></p>
+  <h5>Rules</h5>
   <ol>
     <li>Inventory Hoppers must be connected to chests; can be going down or sideways.</li>
-    <li>After the Hopper, have an Inventory Connector.</li>
+    <li>After an Inventory Hopper, have an Inventory Connector.</li>
     <li>Cannot have two hoppers on one chest.</li>
   </ol>
 </details>
