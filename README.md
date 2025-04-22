@@ -95,90 +95,80 @@
 
   <h4>Claim Anchors</h4>
 
-  <h5>Makeshift Claim Anchor</h5> 
-  <p>Default radius: 10</p>
+  <style>
+    .h5-desc {
+      font-weight: normal;
+    }
+  </style>
+
+  <h4>Claim Anchors</h4>
+
+  <h5>Makeshift Claim Anchor <span class="h5-desc">(Default radius: 10)</span></h5>
   <img src="recipes/makeshift_claim_anchor.png" alt="Makeshift Claim Anchor Recipe"/>
 
-  <h5>Reinforced Claim Anchor</h5>
-  <p>Default radius: 25</p>
+  <h5>Reinforced Claim Anchor <span class="h5-desc">(Default radius: 25)</span></h5>
   <img src="recipes/reinforced_claim_anchor.png" alt="Reinforced Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/reinforced_upgrade_kit.png" alt="Reinforced Upgrade Kit Recipe"/>
 
-  <h5>Glistening Claim Anchor</h5>
-  <p>Default radius: 50</p>
+  <h5>Glistening Claim Anchor <span class="h5-desc">(Default radius: 50)</span></h5>
   <img src="recipes/glistening_claim_anchor.png" alt="Glistening Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/glistening_upgrade_kit.png" alt="Glistening Upgrade Kit Recipe"/>
 
-  <h5>Crystal Claim Anchor</h5>
-  <p>Default radius: 75</p>
+  <h5>Crystal Claim Anchor <span class="h5-desc">(Default radius: 75)</span></h5>
   <img src="recipes/crystal_claim_anchor.png" alt="Crystal Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/crystal_upgrade_kit.png" alt="Crystal Upgrade Kit Recipe"/>
 
-  <h5>Emeradic Claim Anchor</h5>
-  <p>Default radius: 125</p>
+  <h5>Emeradic Claim Anchor <span class="h5-desc">(Default radius: 125)</span></h5>
   <img src="recipes/emeradic_claim_anchor.png" alt="Emeradic Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/emeradic_upgrade_kit.png" alt="Emeradic Upgrade Kit Recipe"/>
 
-  <h5>Withered Claim Anchor</h5>
-  <p>Default radius: 200</p>
+  <h5>Withered Claim Anchor <span class="h5-desc">(Default radius: 200)</span></h5>
   <img src="recipes/withered_claim_anchor.png" alt="Withered Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/withered_upgrade_kit.png" alt="Withered Upgrade Kit Recipe"/>
 
   <h4>Claim Augments</h4>
 
-  <h5>Angelic Aura</h5>
-  <p>Grants regeneration to all players inside the region.</p>
+  <h5>Angelic Aura <span class="h5-desc">(Grants regeneration to all players inside the region.)</span></h5>
   <img src="recipes/angelic_aura.png" alt="Angelic Aura Recipe"/>
 
-  <h5>Chaos Zone</h5>
-  <p>Gives strength to all players inside the region.</p>
+  <h5>Chaos Zone <span class="h5-desc">(Gives strength to all players inside the region.)</span></h5>
   <img src="recipes/chaos_zone.png" alt="Chaos Zone Recipe"/>
 
-  <h5>Ender Binding</h5>
-  <p>Prevents Endermen from teleporting.</p>
+  <h5>Ender Binding <span class="h5-desc">(Prevents Endermen from teleporting.)</span></h5>
   <img src="recipes/ender_binding.png" alt="Ender Binding Recipe"/>
 
-  <h5>Explosion Controller</h5>
-  <p>Allows toggling explosion protection within the claim.</p>
+  <h5>Explosion Controller <span class="h5-desc">(Allows toggling explosion protection within the claim.)</span></h5>
   <img src="recipes/explosion_controller.png" alt="Explosion Controller Recipe"/>
 
-  <h5>Force Field</h5>
-  <p>Launches non-whitelisted players out of the claim.</p>
+  <h5>Force Field <span class="h5-desc">(Launches non-whitelisted players out of the claim.)</span></h5>
   <img src="recipes/force_field.png" alt="Force Field Recipe"/>
 
-  <h5>Greeter</h5>
-  <p>Displays a message of the day (MOTD) to visitors.</p>
+  <h5>Greeter <span class="h5-desc">(Displays a message of the day (MOTD) to visitors.)</span></h5>
   <img src="recipes/greeter.png" alt="Greeter Recipe"/>
 
-  <h5>Heaven Wings</h5>
-  <p>Grants flight within the claim.</p>
+  <h5>Heaven Wings <span class="h5-desc">(Grants flight within the claim.)</span></h5>
   <img src="recipes/heaven_wings.png" alt="Heaven Wings Recipe"/>
 
-  <h5>Lake Spirit's Grace</h5>
-  <p>Grants water breathing, improved underwater vision, and better underwater movement.</p>
+  <h5>Lake Spirit's Grace <span class="h5-desc">(Grants water breathing, improved underwater vision, and better underwater movement.)</span></h5>
   <img src="recipes/lake_spirit_grace.png" alt="Lake Spirit's Grace Recipe"/>
 
-  <h5>PvP Arena</h5>
-  <p>Allows changing the PvP state within the claim.</p>
+  <h5>PvP Arena <span class="h5-desc">(Allows changing the PvP state within the claim.)</span></h5>
   <img src="recipes/pvp_arena.png" alt="PvP Arena Recipe"/>
 
-  <h5>Village Core</h5>
-  <p>Prevents zombies from damaging villagers.</p>
+  <h5>Village Core <span class="h5-desc">(Prevents zombies from damaging villagers.)</span></h5>
   <img src="recipes/village_core.png" alt="Village Core Recipe"/>
 
-  <h5>Withering Seal</h5>
-  <p>Prevents the wither status effect inside the region.</p>
+  <h5>Withering Seal <span class="h5-desc">(Prevents the wither status effect inside the region.)</span></h5>
   <img src="recipes/withering_seal.png" alt="Withering Seal Recipe"/>
 
   <h4>Others</h4>
 
-  <h5>Goggles of (Claim) Revealing</h5>
-  <p>To see claim areas, you'll have to craft Goggles of (Claim) Revealing. When this item is equipped in the helmet, mainhand, or offhand slot, claim outlines become visible.</p>
+  <h5>Goggles of (Claim) Revealing <span class="h5-desc">(Reveals claim outlines when equipped in helmet, mainhand, or offhand.)</span></h5>
   <img src="recipes/goggles.png" alt="Goggles Recipe"/>
 
   <p>Info sourced from <a href="https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/README.md">GitHub README</a>.
