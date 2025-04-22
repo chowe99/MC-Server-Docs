@@ -96,30 +96,30 @@
   <h4>Claim Anchors</h4>
   <p>Craft a Claim Anchor to 'claim' an area.</p>
 
-  <h5>Makeshift Claim Anchor <span style="font-weight: normal;">(Default radius: 10)</span></h5>
+  <strong>Makeshift Claim Anchor</strong> <span style="font-weight: normal;">(Default radius: 10)</span><br>
   <img src="recipes/makeshift_claim_anchor.png" alt="Makeshift Claim Anchor Recipe"/>
 
-  <h5>Reinforced Claim Anchor <span style="font-weight: normal;">(Default radius: 25)</span></h5>
+  <strong>Reinforced Claim Anchor</strong> <span style="font-weight: normal;">(Default radius: 25)</span><br>
   <img src="recipes/reinforced_claim_anchor.png" alt="Reinforced Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/reinforced_upgrade_kit.png" alt="Reinforced Upgrade Kit Recipe"/>
 
-  <h5>Glistening Claim Anchor <span style="font-weight: normal;">(Default radius: 50)</span></h5>
+  <strong>Glistening Claim Anchor</strong> <span style="font-weight: normal;">(Default radius: 50)</span><br>
   <img src="recipes/glistening_claim_anchor.png" alt="Glistening Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/glistening_upgrade_kit.png" alt="Glistening Upgrade Kit Recipe"/>
 
-  <h5>Crystal Claim Anchor <span style="font-weight: normal;">(Default radius: 75)</span></h5>
+  <strong>Crystal Claim Anchor</strong> <span style="font-weight: normal;">(Default radius: 75)</span><br>
   <img src="recipes/crystal_claim_anchor.png" alt="Crystal Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/crystal_upgrade_kit.png" alt="Crystal Upgrade Kit Recipe"/>
 
-  <h5>Emeradic Claim Anchor <span style="font-weight: normal;">(Default radius: 125)</span></h5>
+  <strong>Emeradic Claim Anchor</strong> <span style="font-weight: normal;">(Default radius: 125)</span><br>
   <img src="recipes/emeradic_claim_anchor.png" alt="Emeradic Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/emeradic_upgrade_kit.png" alt="Emeradic Upgrade Kit Recipe"/>
 
-  <h5>Withered Claim Anchor <span style="font-weight: normal;">(Default radius: 200)</span></h5>
+  <strong>Withered Claim Anchor</strong> <span style="font-weight: normal;">(Default radius: 200)</span><br>
   <img src="recipes/withered_claim_anchor.png" alt="Withered Claim Anchor Recipe"/>
   <h6>Upgrade</h6>
   <img src="recipes/withered_upgrade_kit.png" alt="Withered Upgrade Kit Recipe"/>
@@ -127,42 +127,42 @@
   <h4>Claim Augments</h4>
   <p>To upgrade your claim, place an Anchor Augment next to the core Claim Anchor.</p>
 
-  <h5>Angelic Aura <span style="font-weight: normal;">(Grants regeneration to all players inside the region.)</span></h5>
+  <strong>Angelic Aura</strong> <span style="font-weight: normal;">(Grants regeneration to all players inside the region.)</span><br>
   <img src="recipes/angelic_aura.png" alt="Angelic Aura Recipe"/>
 
-  <h5>Chaos Zone <span style="font-weight: normal;">(Gives strength to all players inside the region.)</span></h5>
+  <strong>Chaos Zone</strong> <span style="font-weight: normal;">(Gives strength to all players inside the region.)</span><br>
   <img src="recipes/chaos_zone.png" alt="Chaos Zone Recipe"/>
 
-  <h5>Ender Binding <span style="font-weight: normal;">(Prevents Endermen from teleporting.)</span></h5>
+  <strong>Ender Binding</strong> <span style="font-weight: normal;">(Prevents Endermen from teleporting.)</span><br>
   <img src="recipes/ender_binding.png" alt="Ender Binding Recipe"/>
 
-  <h5>Explosion Controller <span style="font-weight: normal;">(Allows toggling explosion protection within the claim.)</span></h5>
+  <strong>Explosion Controller</strong> <span style="font-weight: normal;">(Allows toggling explosion protection within the claim.)</span><br>
   <img src="recipes/explosion_controller.png" alt="Explosion Controller Recipe"/>
 
-  <h5>Force Field <span style="font-weight: normal;">(Launches non-whitelisted players out of the claim.)</span></h5>
+  <strong>Force Field</strong> <span style="font-weight: normal;">(Launches non-whitelisted players out of the claim.)</span><br>
   <img src="recipes/force_field.png" alt="Force Field Recipe"/>
 
-  <h5>Greeter <span style="font-weight: normal;">(Displays a message of the day (MOTD) to visitors.)</span></h5>
+  <strong>Greeter</strong> <span style="font-weight: normal;">(Displays a message of the day (MOTD) to visitors.)</span><br>
   <img src="recipes/greeter.png" alt="Greeter Recipe"/>
 
-  <h5>Heaven Wings <span style="font-weight: normal;">(Grants flight within the claim.)</span></h5>
+  <strong>Heaven Wings</strong> <span style="font-weight: normal;">(Grants flight within the claim.)</span><br>
   <img src="recipes/heaven_wings.png" alt="Heaven Wings Recipe"/>
 
-  <h5>Lake Spirit's Grace <span style="font-weight: normal;">(Grants water breathing, improved underwater vision, and better underwater movement.)</span></h5>
+  <strong>Lake Spirit's Grace</strong> <span style="font-weight: normal;">(Grants water breathing, improved underwater vision, and better underwater movement.)</span><br>
   <img src="recipes/lake_spirit_grace.png" alt="Lake Spirit's Grace Recipe"/>
 
-  <h5>PvP Arena <span style="font-weight: normal;">(Allows changing the PvP state within the claim.)</span></h5>
+  <strong>PvP Arena</strong> <span style="font-weight: normal;">(Allows changing the PvP state within the claim.)</span><br>
   <img src="recipes/pvp_arena.png" alt="PvP Arena Recipe"/>
 
-  <h5>Village Core <span style="font-weight: normal;">(Prevents zombies from damaging villagers.)</span></h5>
+  <strong>Village Core</strong> <span style="font-weight: normal;">(Prevents zombies from damaging villagers.)</span><br>
   <img src="recipes/village_core.png" alt="Village Core Recipe"/>
 
-  <h5>Withering Seal <span style="font-weight: normal;">(Prevents the wither status effect inside the region.)</span></h5>
+  <strong>Withering Seal</strong> <span style="font-weight: normal;">(Prevents the wither status effect inside the region.)</span><br>
   <img src="recipes/withering_seal.png" alt="Withering Seal Recipe"/>
 
   <h4>Others</h4>
 
-  <h5>Goggles of (Claim) Revealing <span style="font-weight: normal;">(Reveals claim outlines when equipped in helmet, mainhand, or offhand.)</span></h5>
+  <strong>Goggles of (Claim) Revealing</strong> <span style="font-weight: normal;">(Reveals claim outlines when equipped in helmet, mainhand, or offhand.)</span><br>
   <img src="recipes/goggles.png" alt="Goggles Recipe"/>
 
   <p>Info sourced from <a href="https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/README.md">GitHub README</a>.
