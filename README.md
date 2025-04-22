@@ -92,56 +92,93 @@
 
 <details>
   <summary><b>Get Off My Lawn Recipes and Augments</b></summary>
-  <p>For more info, see the <a href="https://github.com/Draylar/get-off-my-lawn/blob/1.17/README.md">GitHub README</a>.
+  
   <h4>Claim Anchors</h4>
-  <h5>Makeshift Claim Anchor</h5>
+  <h5>Makeshift Claim Anchor</h5> 
   <img src="recipes/makeshift_claim_anchor.png" alt="Makeshift Claim Anchor Recipe"/>
+  <p>Default radius: 10</p>
+
   <h5>Reinforced Claim Anchor</h5>
   <img src="recipes/reinforced_claim_anchor.png" alt="Reinforced Claim Anchor Recipe"/>
+  <p>Default radius: 25</p>
   <h6>Upgrade</h6>
   <img src="recipes/reinforced_upgrade_kit.png" alt="Reinforced Upgrade Kit Recipe"/>
+
   <h5>Glistening Claim Anchor</h5>
   <img src="recipes/glistening_claim_anchor.png" alt="Glistening Claim Anchor Recipe"/>
+  <p>Default radius: 50</p>
   <h6>Upgrade</h6>
   <img src="recipes/glistening_upgrade_kit.png" alt="Glistening Upgrade Kit Recipe"/>
+
   <h5>Crystal Claim Anchor</h5>
   <img src="recipes/crystal_claim_anchor.png" alt="Crystal Claim Anchor Recipe"/>
+  <p>Default radius: 75</p>
   <h6>Upgrade</h6>
   <img src="recipes/crystal_upgrade_kit.png" alt="Crystal Upgrade Kit Recipe"/>
+
   <h5>Emeradic Claim Anchor</h5>
   <img src="recipes/emeradic_claim_anchor.png" alt="Emeradic Claim Anchor Recipe"/>
+  <p>Default radius: 125</p>
   <h6>Upgrade</h6>
   <img src="recipes/emeradic_upgrade_kit.png" alt="Emeradic Upgrade Kit Recipe"/>
+
   <h5>Withered Claim Anchor</h5>
   <img src="recipes/withered_claim_anchor.png" alt="Withered Claim Anchor Recipe"/>
+  <p>Default radius: 200</p>
   <h6>Upgrade</h6>
   <img src="recipes/withered_upgrade_kit.png" alt="Withered Upgrade Kit Recipe"/>
+
   <h4>Claim Augments</h4>
   <h5>Angelic Aura</h5>
   <img src="recipes/angelic_aura.png" alt="Angelic Aura Recipe"/>
+  <p>Grants regeneration to all players inside the region.</p>
+
   <h5>Chaos Zone</h5>
   <img src="recipes/chaos_zone.png" alt="Chaos Zone Recipe"/>
+  <p>Gives strength to all players inside the region.</p>
+
   <h5>Ender Binding</h5>
   <img src="recipes/ender_binding.png" alt="Ender Binding Recipe"/>
+  <p>Prevents Endermen from teleporting.</p>
+
   <h5>Explosion Controller</h5>
   <img src="recipes/explosion_controller.png" alt="Explosion Controller Recipe"/>
+  <p>Allows toggling explosion protection within the claim.</p>
+
   <h5>Force Field</h5>
   <img src="recipes/force_field.png" alt="Force Field Recipe"/>
+  <p>Launches non-whitelisted players out of the claim.</p>
+
   <h5>Greeter</h5>
   <img src="recipes/greeter.png" alt="Greeter Recipe"/>
+  <p>Displays a message of the day (MOTD) to visitors.</p>
+
   <h5>Heaven Wings</h5>
   <img src="recipes/heaven_wings.png" alt="Heaven Wings Recipe"/>
+  <p>Grants flight within the claim.</p>
+
   <h5>Lake Spirit's Grace</h5>
   <img src="recipes/lake_spirit_grace.png" alt="Lake Spirit's Grace Recipe"/>
+  <p>Grants water breathing, improved underwater vision, and better underwater movement.</p>
+
   <h5>PvP Arena</h5>
   <img src="recipes/pvp_arena.png" alt="PvP Arena Recipe"/>
+  <p>Allows changing the PvP state within the claim.</p>
+
   <h5>Village Core</h5>
   <img src="recipes/village_core.png" alt="Village Core Recipe"/>
+  <p>Prevents zombies from damaging villagers.</p>
+
   <h5>Withering Seal</h5>
   <img src="recipes/withering_seal.png" alt="Withering Seal Recipe"/>
+  <p>Prevents the wither status effect inside the region.</p>
+
   <h4>Others</h4>
   <h5>Goggles of (Claim) Revealing</h5>
   <img src="recipes/goggles.png" alt="Goggles Recipe"/>
+  <p>To see claim areas, you'll have to craft Goggles of (Claim) Revealing. When this item is equipped in the helmet, mainhand, or offhand slot, claim outlines become visible.</p>
+
+  <p>Info sourced from <a href="https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/README.md">GitHub README</a>.
 </details>
 
 <details>
@@ -186,11 +223,11 @@
   <p><code>autolockingContainers</code>: List of containers which will be set to PRIVATE by default (remove items in the list to make them set to public by default).</p>
   <h5>Additional permissions</h5>
   <p><code>htm.admin</code>: Allows unrestricted access to containers and other managerial permissions</p>
+  <p>Info sourced from <a href="https://github.com/QuiltServerTools/HeyThatsMine/blob/master/README.md">GitHub README</a>.
 </details>
 
 <details>
   <summary><b>Neo Enchant+ Enchantments List</b></summary>
-  <p>For more info, see the <a href="https://github.com/Hardel-DW/NeoEnchant/blob/main/README.md">GitHub README</a>.
   <ul>
     <li>
       <strong>Armor</strong>:
@@ -291,6 +328,7 @@
       </ul>
     </li>
   </ul>
+  <p>Info sourced from <a href="https://github.com/Hardel-DW/NeoEnchant/blob/main/README.md">GitHub README</a>.
 </details>
 </li>
 
