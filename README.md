@@ -94,14 +94,13 @@
   <summary><b>Get Off My Lawn Recipes and Augments</b></summary>
 
   <h4>Claim Anchors</h4>
+  <p>Craft a Claim Anchor to 'claim' an area.</p>
 
   <style>
     .h5-desc {
       font-weight: normal;
     }
   </style>
-
-  <h4>Claim Anchors</h4>
 
   <h5>Makeshift Claim Anchor <span class="h5-desc">(Default radius: 10)</span></h5>
   <img src="recipes/makeshift_claim_anchor.png" alt="Makeshift Claim Anchor Recipe"/>
@@ -132,6 +131,7 @@
   <img src="recipes/withered_upgrade_kit.png" alt="Withered Upgrade Kit Recipe"/>
 
   <h4>Claim Augments</h4>
+  <p>To upgrade your claim, place an Anchor Augment next to the core Claim Anchor.</p>
 
   <h5>Angelic Aura <span class="h5-desc">(Grants regeneration to all players inside the region.)</span></h5>
   <img src="recipes/angelic_aura.png" alt="Angelic Aura Recipe"/>
