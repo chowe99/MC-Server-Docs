@@ -165,7 +165,8 @@
   <strong>Goggles of (Claim) Revealing</strong> <span style="font-weight: normal;">(Reveals claim outlines when equipped in helmet, mainhand, or offhand.)</span><br>
   <img src="recipes/goggles.png" alt="Goggles Recipe"/>
 
-  <p>Info sourced from <a href="https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/README.md">GitHub README</a>.
+  <p>Info sourced from <a href="https://github.com/Patbox/get-off-my-lawn-reserved/blob/1.21.5/README.md">GitHub README</a>. 
+     Recipe details can be found <a href="https://github.com/Patbox/get-off-my-lawn-reserved/tree/1.21.5/src/main/resources/data/goml/recipe">here</a>.
 </details>
 
 <details>
