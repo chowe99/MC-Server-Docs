@@ -17,6 +17,9 @@
       <li><a href="https://modrinth.com/mod/easy-magic?version=1.21.5&loader=fabric">Easy Magic</a></li>
       <li><a href="https://modrinth.com/mod/toms-storage?version=1.21.5&loader=fabric#download">Tom's Simple Storage</a></li>
     </ul>
+    <li>
+      Connect to server: mc.howse.top
+    </li>
   </li>
 </ol>
 
